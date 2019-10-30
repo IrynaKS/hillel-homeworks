@@ -1,0 +1,49 @@
+/* istok-web-regular - latin */
+@font-face {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/istok-web-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Istok Web Regular"), local("IstokWeb-Regular"),
+    url("../fonts/istok-web-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/istok-web-v14-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/istok-web-v14-latin-regular.woff")
+      format("woff"); /* Modern Browsers */
+}
+/* istok-web-italic - latin */
+@font-face {
+  font-family: "Istok Web";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/istok-web-v14-latin-italic.eot"); /* IE9 Compat Modes */
+  src: local("Istok Web Italic"), local("IstokWeb-Italic"),
+    url("../fonts/istok-web-v14-latin-italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/istok-web-v14-latin-italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/istok-web-v14-latin-italic.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/istok-web-v14-latin-italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/istok-web-v14-latin-italic.svg#IstokWeb") format("svg"); /* Legacy iOS */
+}
+/* istok-web-700 - latin */
+@font-face {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/istok-web-v14-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Istok Web Bold"), local("IstokWeb-Bold"),
+    url("../fonts/istok-web-v14-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/istok-web-v14-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/istok-web-v14-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/istok-web-v14-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/istok-web-v14-latin-700.svg#IstokWeb") format("svg"); /* Legacy iOS */
+}
