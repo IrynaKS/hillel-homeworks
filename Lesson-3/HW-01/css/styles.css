@@ -40,7 +40,7 @@ a:active {
 }
 
 ol {
-  margin-left: 20px;
+  margin-left: 13px;
 }
 
 .menu {
@@ -109,6 +109,6 @@ h1 + p {
   margin-bottom: 100px;
 }
 
-.license_text_ {
-  padding-top: 24px;
+.license_text:nth-of-type(2) {
+  margin-bottom: 24px;
 }
