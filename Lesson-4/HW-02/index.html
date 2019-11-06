@@ -15,11 +15,11 @@
         </div>
         <div class="all-form">
           <div class="form-group name">
-            <label for="name">ФИО: <span class="red-star">*</span></label
+            <label for="name">ФИО: <span class="required">*</span></label
             ><input type="text" id="name" required />
           </div>
           <div class="form-group email">
-            <label for="email">E-mail: <span class="red-star">*</span></label
+            <label for="email">E-mail: <span class="required">*</span></label
             ><input type="email" id="email" required />
           </div>
           <div class="form-group phone">
@@ -27,28 +27,27 @@
             ><input type="tel" id="phone" minlength="12" maxlength="12" />
           </div>
           <div class="form-group products">
-            <label
-              >Наименование товара: <span class="red-star">*</span>
-              <div class="select">
-                <select name="products" required>
-                  <option value="product1" selected>Товар №1</option>
-                  <option value="product2">Товар №2</option>
-                  <option value="product3">Товар №3</option>
-                  <option value="product4">Товар №4</option>
-                  <option value="product5">Товар №5</option>
-                </select>
-              </div></label
+            <label for="products"
+              >Наименование товара: <span class="required">*</span></label
             >
+            <select name="products" id="products" required>
+              <option value="" disabled selected>Выберите товар</option>
+              <option value="product1">Товар №1</option>
+              <option value="product2">Товар №2</option>
+              <option value="product3">Товар №3</option>
+              <option value="product4">Товар №4</option>
+              <option value="product5">Товар №5</option>
+            </select>
           </div>
           <div class="form-group quantity">
             <label for="quantity"
-              >Количество: <span class="red-star">*</span></label
+              >Количество: <span class="required">*</span></label
             >
             <input type="number" id="quantity" required min="1" max="20" />
           </div>
           <div class="form-group date">
             <label for="date"
-              >Дата доставки: <span class="red-star">*</span></label
+              >Дата доставки: <span class="required">*</span></label
             ><input type="date" id="date" required />
           </div>
         </div>

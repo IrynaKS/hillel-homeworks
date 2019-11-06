@@ -48,22 +48,21 @@ select {
 
 .form-group input {
   padding: 0;
-  line-height: 36px;
+  height: 36px;
 }
 
 .form-group label {
   margin-bottom: 5px;
 }
 
-.red-star {
+.required {
   color: #ff1f1f;
 }
 
-select {
-  box-sizing: border-box;
+.products select {
   border: 1px solid #dddddd;
-  border-radius: 0;
-  background: transparent;
+  border-radius: 1px;
+  background: #ffffff;
   height: 36px;
   font-size: 15px;
   color: #666666;
