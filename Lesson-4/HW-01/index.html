@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lesson-04-1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="#" method="POST" name="test-form">
+        <h1 class="heading">Форма тестирования</h1>
+        <div class="name">
+          <label for="name">Ваше имя: <span class="red-star">*</span></label>
+          <div class="input-name">
+            <input type="text" id="name" required />
+          </div>
+        </div>
+        <div class="age">
+          <h2 class="age-heading">
+            Ваш возраст: <span class="red-star">*</span>
+          </h2>
+          <ul>
+            <li>
+              <input type="radio" name="age" id="20" /><label for="20"
+                >до 20</label
+              >
+            </li>
+            <li>
+              <input type="radio" name="age" id="20-30" /><label for="20-30"
+                >от 20 до 30</label
+              >
+            </li>
+            <li>
+              <input type="radio" name="age" id="30-40" /><label for="30-40"
+                >от 30 до 40</label
+              >
+            </li>
+            <li>
+              <input type="radio" name="age" id="40-50" /><label for="40-50"
+                >от 40 до 50</label
+              >
+            </li>
+            <li>
+              <input type="radio" name="age" id="50" /><label for="50"
+                >больше 50</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="question">
+          <h2>
+            Есть ли у Вас собственный сайт или блог:
+            <span class="red-star">*</span>
+          </h2>
+          <ul class="question-list">
+            <li class="question-item">
+              <input type="radio" name="question" id="yes" /><label for="yes"
+                >Да, есть</label
+              >
+            </li>
+            <li class="question-item">
+              <input type="radio" name="question" id="no-but" /><label
+                for="no-but"
+                >Нет, но планирую создать</label
+              >
+            </li>
+            <li class="question-item">
+              <input type="radio" name="question" id="no" /><label for="no"
+                >Нет, он мне не нужен</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <h2>
+            Есть ли у Вас аккаунт в одной или нескольких соцсетях:
+            <span class="red-star">*</span>
+          </h2>
+          <ul class="social-list">
+            <li class="social-item">
+              <input type="checkbox" name="social" id="odnoklassniki" /><label
+                for="odnoklassniki"
+                >Одноклассники</label
+              >
+            </li>
+            <li class="social-item">
+              <input type="checkbox" name="social" id="vk" /><label for="vk"
+                >Вконтакте</label
+              >
+            </li>
+            <li class="social-item">
+              <input type="checkbox" name="social" id="facebook" /><label
+                for="facebook"
+                >Facebook</label
+              >
+            </li>
+            <li class="social-item">
+              <input type="checkbox" name="social" id="twitter" /><label
+                for="twitter"
+                >Twitter</label
+              >
+            </li>
+            <li class="social-item">
+              <input type="checkbox" name="social" id="google" /><label
+                for="google"
+                >Google+</label
+              >
+            </li>
+            <li class="social-item">
+              <input type="checkbox" name="social" id="personal" /><label
+                for="personal"
+                >Свой вариант:</label
+              >
+              <input type="text" class="social-text" />
+            </li>
+          </ul>
+        </div>
+        <input type="submit" value="Отправить" class="submit" />
+      </form>
+    </div>
+  </body>
+</html>

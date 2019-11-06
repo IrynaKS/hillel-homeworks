@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 768px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+ul {
+  padding: 0;
+  margin-top: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.wrapper {
+  padding-left: 35px;
+  width: 607px;
+  box-sizing: border-box;
+  border-right: 1px solid #f6f6f6;
+  border-left: 6px solid #f6f6f6;
+}
+
+.heading {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.heading:after {
+  content: "";
+  display: block;
+  width: 545px;
+  border-bottom: 1px solid #f6f6f6;
+  padding-bottom: 9px;
+}
+
+.red-star {
+  color: #ff1f1f;
+}
+
+.name,
+.age,
+.question,
+.social {
+  margin-bottom: 20px;
+}
+
+.name label {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.input-name input {
+  width: 402px;
+  height: 32px;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.social-text {
+  width: 186px;
+  height: 32px;
+}
+
+.submit {
+  display: block;
+  box-sizing: border-box;
+  width: 136px;
+  height: 45px;
+  background-color: #2c97de;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  content: "";
+  height: 16px;
+  width: 16px;
+  margin: 0 10px 0 0;
+  background-color: #fff;
+}
+
+input[type="text"] {
+  font-size: 14px;
+}
