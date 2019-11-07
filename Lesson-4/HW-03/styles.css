@@ -65,7 +65,7 @@ li {
 
 .gender input {
   display: inline-block;
-  width: 10px;
+  width: 13px;
 }
 
 .form-buttons {
@@ -77,7 +77,7 @@ input[type="submit"],
 input[type="reset"] {
   display: inline-block;
   box-sizing: border-box;
-  width: 100px;
+  width: 70px;
   height: 34px;
   background-color: rgb(89, 186, 93);
   color: rgb(255, 255, 255);
@@ -89,6 +89,40 @@ input[type="reset"] {
 input[type="reset"] {
   background-color: rgb(218, 85, 68);
 }
-#first-name {
+#firstname {
+  margin-left: 83px;
+}
+
+#lastname {
+  margin-left: 84px;
+}
+#screenname {
+  margin-left: 65px;
+}
+#birth {
+  margin-left: 68px;
+}
+#male {
+  margin-left: 100px;
+}
+#country {
+  margin-left: 102px;
+}
+#email {
+  margin-left: 110px;
+}
+#tel {
+  margin-left: 109px;
+}
+#password {
+  margin-left: 87px;
+}
+#confirm {
   margin-left: 30px;
+}
+#checkbox {
+  margin-left: 197px;
+  margin-bottom: 30px;
+}
+#gender {
 }
