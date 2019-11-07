@@ -14,71 +14,121 @@
       </div>
       <div class="form">
         <form action="#" method="POST" name="sign-up_form">
-          <ul class="form-list">
-            <li class="form-item">
-              <label for="firstname">First Name</label
-              ><input
-                type="text"
-                id="firstname"
-                name="firstname"
-                placeholder="Enter First Name..."
-              />
-            </li>
-            <li class="form-item">
-              <label for="lastname">Last Name</label
-              ><input
-                type="text"
-                id="lastname"
-                name="lastname"
-                placeholder="Enter Last Name..."
-              />
-            </li>
-            <li class="form-item">
-              <label for="screenname">Screen Name</label
-              ><input
-                type="text"
-                id="screenname"
-                name="screenname"
-                placeholder="Enter Screen Name..."
-              />
-            </li>
-            <li class="form-item">
-              <div class="date-of-birth">
+          <div class="form-inputs">
+            <ul class="form-list">
+              <li class="form-item">
+                <label for="firstname">First Name</label
+                ><input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="Enter First Name..."
+                />
+              </li>
+              <li class="form-item">
+                <label for="lastname">Last Name</label
+                ><input
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Enter Last Name..."
+                />
+              </li>
+              <li class="form-item">
+                <label for="screenname">Screen Name</label
+                ><input
+                  type="text"
+                  id="screenname"
+                  name="screenname"
+                  placeholder="Enter Screen Name..."
+                />
+              </li>
+              <li class="form-item">
                 <label for="birth">Date of Birth</label>
-                <select name="month" id="birth">
-                  <option value="january">January</option>
-                  <option value="february">February</option>
-                  <option value="march">March</option>
-                  <option value="april">April</option>
-                  <option value="may" selected>May</option>
-                  <option value="june">June</option>
-                  <option value="july">July</option>
-                  <option value="august">August</option>
-                  <option value="september">September</option>
-                  <option value="october">October</option>
-                  <option value="november">November</option>
-                  <option value="december">December</option>
+                <div class="date-of-birth" id="birth">
+                  <select name="month" class="month">
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may" selected>May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                  </select>
+                  <select name="day" class="day">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5" selected>05</option>
+                  </select>
+                  <select name="year" class="year">
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985" selected>1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                  </select>
+                </div>
+              </li>
+              <li class="form-item gender">
+                Gender
+                <input type="radio" name="gender" id="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+              </li>
+              <li class="form-item">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                  <option value="USA" selected>USA</option>
+                  <option value="greatbritain">Great Britain</option>
+                  <option value="australia">Australia</option>
+                  <option value="italy">Italy</option>
+                  <option value="ukraine">Ukraine</option>
                 </select>
-                <input type="number" name="day" min="1" max="31" />
-                <input type="number" name="year" min="1980" max="2019" />
-              </div>
-            </li>
-            <li class="form-item">
-              <label for="gender">Gender</label>
-              <input type="radio" name="gender" />
-              <input type="radio" name="gender" />
-            </li>
-            <li class="form-item">
-              <label for="country">Country</label>
-              <select name="country" id="country">
-                <option value="USA" selected>USA</option>
-                <option value="greatbritain">Great Britain</option>
-                <option value="australia">Australia</option>
-                <option value="italy">Italy</option>
-                <option value="ukraine">Ukraine</option>
-              </select>
-            </li>
-          </ul>
+              </li>
+              <li class="form-item">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter E-mail..."
+                />
+              </li>
+              <li class="form-item">
+                <label for="tel">Phone</label>
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  placeholder="Enter Phone..."
+                />
+              </li>
+              <li class="form-item">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+              </li>
+              <li class="form-item">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" name="password" id="confirm" />
+              </li>
+            </ul>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">I agree to the Terms of Use</label>
+          </div>
+          <div class="form-buttons">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Cancel" />
+          </div>
         </form>
       </div>
     </div>

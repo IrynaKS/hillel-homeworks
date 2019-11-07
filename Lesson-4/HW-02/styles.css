@@ -5,13 +5,13 @@ body {
   width: 768px;
   font-family: Arial, sans-serif;
   font-size: 15px;
-  color: #333333;
+  color: rgb(51, 51, 51);
 }
 
 .wrapper {
   width: 768px;
   box-sizing: border-box;
-  border-left: 5px solid #dddddd;
+  border-left: 5px solid rgb(221, 221, 221);
 }
 
 .all-form {
@@ -20,7 +20,7 @@ body {
 
 .all-form input {
   display: block;
-  border: 1px solid #dddddd;
+  border: 1px solid rgb(221, 221, 221);
   border-radius: 1px;
   box-shadow: inset 0 16px 5px rgba(221, 221, 221, 0.5),
     1px 1px 5px rgba(255, 255, 255, 1);
@@ -30,8 +30,8 @@ body {
   box-sizing: border-box;
   width: 595px;
   padding: 20px;
-  background-color: #444444;
-  color: #ffffff;
+  background-color: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 25px;
 }
@@ -64,19 +64,18 @@ select {
 }
 
 .required {
-  color: #ff1f1f;
+  color: rgb(255, 31, 31);
 }
 
 .products select {
   display: block;
-  border: 1px solid #dddddd;
+  border: 1px solid rgb(221, 221, 221);
   border-radius: 1px;
-  /* background: #ffffff; */
   height: 36px;
   box-shadow: inset 0 16px 5px rgba(221, 221, 221, 0.5),
     1px 1px 5px rgba(255, 255, 255, 1);
   font-size: 15px;
-  color: #666666;
+  color: rgb(102, 102, 102);
 }
 
 .date input {
@@ -86,8 +85,8 @@ select {
 .footer {
   width: 595px;
   box-sizing: border-box;
-  background-color: #444444;
-  color: #ffffff;
+  background-color: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
   margin-bottom: 8px;
 }
 
@@ -101,8 +100,8 @@ input[type="reset"] {
   box-sizing: border-box;
   width: 100px;
   height: 34px;
-  background-color: #e3e3e3;
-  color: #444444;
+  background-color: rgb(227, 227, 227);
+  color: rgb(68, 68, 68);
   font-size: 14px;
   font-weight: bold;
   border: none;
