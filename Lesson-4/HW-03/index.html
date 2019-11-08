@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Lesson-04-2</title>
+    <title>Lesson-04-3</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -15,127 +15,152 @@
       <div class="form">
         <form action="#" method="POST" name="sign-up_form">
           <div class="form-inputs">
-            <ul class="form-list">
-              <li class="form-item">
-                <label for="firstname">First Name</label
-                ><input
-                  type="text"
-                  id="firstname"
-                  name="firstname"
-                  placeholder="Enter First Name..."
-                />
-              </li>
-              <li class="form-item">
-                <label for="lastname">Last Name</label
-                ><input
-                  type="text"
-                  id="lastname"
-                  name="lastname"
-                  placeholder="Enter Last Name..."
-                />
-              </li>
-              <li class="form-item">
-                <label for="screenname">Screen Name</label
-                ><input
-                  type="text"
-                  id="screenname"
-                  name="screenname"
-                  placeholder="Enter Screen Name..."
-                />
-              </li>
-              <li class="form-item">
-                <label for="birth">Date of Birth</label>
-                <div class="date-of-birth" id="birth">
-                  <select name="month" class="month">
-                    <option value="january">January</option>
-                    <option value="february">February</option>
-                    <option value="march">March</option>
-                    <option value="april">April</option>
-                    <option value="may" selected>May</option>
-                    <option value="june">June</option>
-                    <option value="july">July</option>
-                    <option value="august">August</option>
-                    <option value="september">September</option>
-                    <option value="october">October</option>
-                    <option value="november">November</option>
-                    <option value="december">December</option>
-                  </select>
-                  <select name="day" class="day">
-                    <option value="1">01</option>
-                    <option value="2">02</option>
-                    <option value="3">03</option>
-                    <option value="4">04</option>
-                    <option value="5" selected>05</option>
-                  </select>
-                  <select name="year" class="year">
-                    <option value="1983">1983</option>
-                    <option value="1984">1984</option>
-                    <option value="1985" selected>1985</option>
-                    <option value="1986">1986</option>
-                    <option value="1987">1987</option>
-                    <option value="1988">1988</option>
-                    <option value="1989">1989</option>
-                  </select>
-                </div>
-              </li>
-              <li class="form-item gender">
-                Gender
-                <input type="radio" name="gender" id="male" />
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="female" />
-                <label for="female">Female</label>
-              </li>
-              <li class="form-item">
-                <label for="country">Country</label>
-                <select name="country" id="country">
-                  <option value="USA" selected>USA</option>
-                  <option value="greatbritain">Great Britain</option>
-                  <option value="australia">Australia</option>
-                  <option value="italy">Italy</option>
-                  <option value="ukraine">Ukraine</option>
+            <div class="form-item">
+              <label for="firstname">First Name</label
+              ><input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="Enter First Name..."
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="lastname">Last Name</label
+              ><input
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="Enter Last Name..."
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="screenname">Screen Name</label
+              ><input
+                type="text"
+                id="screenname"
+                name="screenname"
+                placeholder="Enter Screen Name..."
+                required
+              />
+            </div>
+            <div class="form-item date">
+              <label for="birth">Date of Birth</label>
+              <div class="date-of-birth">
+                <select name="month" class="month" id="birth">
+                  <option value="january">January</option>
+                  <option value="february">February</option>
+                  <option value="march">March</option>
+                  <option value="april">April</option>
+                  <option value="may" selected>May</option>
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="august">August</option>
+                  <option value="september">September</option>
+                  <option value="october">October</option>
+                  <option value="november">November</option>
+                  <option value="december">December</option>
                 </select>
-              </li>
-              <li class="form-item">
-                <label for="email">E-mail</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Enter E-mail..."
-                />
-              </li>
-              <li class="form-item">
-                <label for="tel">Phone</label>
-                <input
-                  type="tel"
-                  name="tel"
-                  id="tel"
-                  placeholder="Enter Phone..."
-                />
-              </li>
-              <li class="form-item">
-                <label for="password">Password</label>
-                <input
-                  type="password"
-                  name="password"
-                  id="password"
-                  minlength="8"
-                  required
-                />
-              </li>
-              <li class="form-item">
-                <label for="confirm">Confirm Password</label>
-                <input
-                  type="password"
-                  name="password"
-                  id="confirm"
-                  minlength="8"
-                  required
-                />
-              </li>
-            </ul>
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            <label for="checkbox">I agree to the Terms of Use</label>
+                <select name="day" class="day">
+                  <option value="1">01</option>
+                  <option value="2">02</option>
+                  <option value="3">03</option>
+                  <option value="4">04</option>
+                  <option value="5" selected>05</option>
+                  <option value="6">06</option>
+                  <option value="7">07</option>
+                  <option value="8">08</option>
+                  <option value="9">09</option>
+                  <option value="10">10</option>
+                </select>
+                <select name="year" class="year">
+                  <option value="1983">1983</option>
+                  <option value="1984">1984</option>
+                  <option value="1985" selected>1985</option>
+                  <option value="1986">1986</option>
+                  <option value="1987">1987</option>
+                  <option value="1988">1988</option>
+                  <option value="1989">1989</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-item gender">
+              <span>Gender</span>
+              <div class="gender-radio">
+                <label
+                  ><input
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    id="male"
+                  />Male</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    id="female"
+                  />Female</label
+                >
+              </div>
+            </div>
+            <div class="form-item">
+              <label for="country">Country</label>
+              <select name="country" id="country" class="country">
+                <option value="USA" selected>USA</option>
+                <option value="greatbritain">Great Britain</option>
+                <option value="australia">Australia</option>
+                <option value="italy">Italy</option>
+                <option value="ukraine">Ukraine</option>
+              </select>
+            </div>
+            <div class="form-item">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter E-mail..."
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="tel">Phone</label>
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="Enter Phone..."
+                minlength="10"
+                maxlength="12"
+              />
+            </div>
+            <div class="form-item">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                minlength="8"
+                required
+              />
+            </div>
+            <div class="form-item confirm">
+              <label for="confirm">Confirm Password</label>
+              <input
+                type="password"
+                name="password"
+                id="confirm"
+                minlength="8"
+                required
+              />
+            </div>
+            <div class="agree-checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label for="checkbox">I agree to the Terms of Use</label>
+            </div>
           </div>
           <div class="form-buttons">
             <input type="submit" value="Submit" />
