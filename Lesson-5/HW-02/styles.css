@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 29px;
+  color: rgb(0, 0, 0);
+}
+
+.wrapper {
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.wrapper-span {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 10px 0 0 22px;
+}
+
+.container {
+  width: 445px;
+  box-sizing: border-box;
+  border-width: 8px 15px 15px 15px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  margin: 20px 25px 35px 20px;
+}
+
+.links {
+  padding: 30px 54px;
+}
+
+.links-item:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.links-link {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.links-link span {
+  display: inline-block;
+  vertical-align: 17px;
+}
+
+.links-link span:hover {
+  color: rgb(118, 140, 177);
+}
+
+.links-link::before {
+  content: "";
+  display: inline-block;
+  height: 54px;
+  width: 54px;
+  background-image: url(img/css_sprites.png);
+}
+
+.facebook::before {
+  background-position: -10px -10px;
+  margin-right: 7px;
+}
+
+.twitter::before {
+  background-position: -81px -10px;
+}

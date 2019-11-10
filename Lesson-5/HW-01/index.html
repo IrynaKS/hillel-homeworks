@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lesson-05-1</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">Форма голосования</h1>
+      <form action="#" method="POST" name="test-form">
+        <h2 class="form-head">
+          Какой социальной сетью Вы пользуетесь чаще всего:
+          <span class="required">*</span>
+        </h2>
+        <div class="social">
+          <ul class="social-list">
+            <li class="social-item">
+              <input
+                type="radio"
+                name="social"
+                value="facebook"
+                id="facebook"
+              /><label for="facebook">Facebook</label>
+            </li>
+            <li class="social-item">
+              <input type="radio" name="social" value="vk" id="vk" /><label
+                for="vk"
+                >Вконтакте</label
+              >
+            </li>
+            <li class="social-item">
+              <input
+                type="radio"
+                name="social"
+                value="odoklassniki"
+                id="odoklassniki"
+              /><label for="odoklassniki">Одноклассники</label>
+            </li>
+            <li class="social-item">
+              <input
+                type="radio"
+                name="social"
+                value="google"
+                id="google"
+              /><label for="google">Google+</label>
+            </li>
+            <li class="social-item">
+              <input
+                type="radio"
+                name="social"
+                value="twitter"
+                id="twitter"
+              /><label for="twitter">Twitter</label>
+            </li>
+            <li class="social-item">
+              <input
+                type="radio"
+                name="social"
+                value="personal"
+                id="personal"
+              /><label for="personal">Свой вариант:</label>
+              <input type="text" class="social-text" />
+            </li>
+          </ul>
+        </div>
+        <input type="submit" value="Отправить" class="submit" />
+      </form>
+    </div>
+  </body>
+</html>

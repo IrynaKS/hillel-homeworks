@@ -126,6 +126,7 @@ input[type="reset"] {
   border: none;
   border-radius: 3px;
   margin: 0;
+  padding:4px;
 }
 
 input[type="reset"] {
