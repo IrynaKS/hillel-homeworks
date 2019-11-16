@@ -2,7 +2,7 @@ a {
   text-decoration: none;
 }
 
-.wrapper {
+body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -35,17 +35,16 @@ a {
   padding: 48px 0px 72px 30px;
 }
 
-h1 {
+h1,
+h2 {
   font-size: 40px;
   font-weight: normal;
   margin: 0;
   padding: 0;
 }
+
 h2 {
   font-size: 20px;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
 }
 
 .navigation {
@@ -56,9 +55,7 @@ h2 {
     #101010 10px,
     #101010 20px
   );
-  margin: 0;
-  padding: 0;
-  height: 40px;
+  padding-bottom: 40px;
 }
 
 .nav-list {
@@ -167,6 +164,7 @@ h2 {
 .archives-link {
   color: rgb(0, 1, 0);
 }
+
 .categories-link:hover,
 .archives-link:hover {
   color: rgb(153, 174, 179);
@@ -175,5 +173,9 @@ h2 {
 .footer {
   text-align: center;
   font-size: 10px;
+  color: rgb(45, 44, 40);
+}
+
+.footer a {
   color: rgb(45, 44, 40);
 }
