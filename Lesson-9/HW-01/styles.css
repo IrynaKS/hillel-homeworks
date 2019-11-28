@@ -404,21 +404,3 @@ h3 {
 .footer-link {
   display: inline;
 }
-/* для медиа */
-/* .logo-stuff {
-  float: left;
-} */
-/* .menu-stuff {
-  float: right;
-} */
-/* .header::after {
-  display: block;
-  content: "";
-  clear: both;
-} */
-/* .menu-link:not(:last-child) {
-  margin-right: 5.2rem;
-} */
-/* .menu-link:hover {
-  border-color: red;
-} */
