@@ -1,0 +1,381 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #595756;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  display: block;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+.wrapper {
+  min-width: 32rem;
+}
+
+.container {
+  max-width: 32rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+.logo {
+  margin: 0 auto;
+}
+.logo a {
+  display: block;
+  background-image: url(./img/css_sprites.png);
+  background-position: -1rem -1rem;
+  width: 30.2rem;
+  height: 5.3rem;
+  margin-bottom: 1.8rem;
+}
+
+.logo-sub {
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 2.3rem;
+  margin-bottom: 1.8rem;
+}
+/* МЕНЮХА */
+
+.menu-links:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.menu-link {
+  width: 6rem;
+  display: block;
+  border-bottom: 0.1rem solid;
+  text-align: center;
+  margin-bottom: 1.8rem;
+  margin-right: 0.3rem;
+  float: left;
+}
+
+.menu-link:hover {
+  color: #d44a26;
+}
+
+.menu-main {
+  border-color: #2d89ef;
+}
+
+.menu-products {
+  border-color: #603cba;
+  position: relative;
+}
+.menu-products:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid #603cba;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  right: 2.5rem;
+}
+
+.menu-services {
+  border-color: #01a31c;
+}
+
+.menu-about {
+  border-color: #d44a26;
+}
+
+.menu-contacts {
+  border-color: #f0a427;
+  margin-right: 0;
+}
+
+/* СКАЧАТЬ И ПОИСК */
+.download {
+  width: 32rem;
+  height: 3.8rem;
+  background-color: #0064cd;
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 0.5rem 0 0 1rem;
+  margin-bottom: 1.8rem;
+  text-decoration: underline;
+}
+
+.download::before {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  background-position: -28.3rem -8.3rem;
+  width: 1.9rem;
+  height: 2rem;
+  color: #fff;
+  margin-right: 1.7rem;
+}
+
+.search-form input[type="search"] {
+  border: none;
+}
+
+.search-form input[type="submit"] {
+  background: url(./img/css_sprites.png);
+  background-position: -1rem -14.1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0;
+  border: none;
+  position: relative;
+  left: 15rem;
+  text-indent: 9000px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.search {
+  border: 0.1rem solid #cccccc;
+  max-width: 32;
+  padding: 0.7rem 3rem 0.7rem 0.7rem;
+  margin-bottom: 1.8rem;
+}
+/* описание продукта */
+
+.describe {
+  width: 32rem;
+  height: 7rem;
+  background-color: #603cba;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #fff;
+  padding: 1.5rem 0 0 1.7rem;
+  vertical-align: top;
+  margin-bottom: 1.8rem;
+}
+
+.describe::before {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  background-position: -23.4rem -8.3rem;
+  width: 2.9rem;
+  height: 3.2rem;
+  color: #fff;
+  margin-right: 1.7rem;
+}
+
+.describe::after {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  background-position: -4.6rem -13.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.2rem;
+  border: 0.2rem solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  top: 1.3rem;
+  left: 7.7rem;
+}
+
+.doc-download {
+  width: 32rem;
+  height: 7rem;
+  background-color: #00a300;
+  color: #fff;
+  padding: 1.5rem 0 0 1.7rem;
+  margin-bottom: 1.8rem;
+}
+
+.doc-download span {
+  color: #fff;
+}
+
+.doc-download::before {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  width: 3.8rem;
+  height: 3.6rem;
+  background-position: -12.5rem -8.3rem;
+  color: #fff;
+  position: relative;
+  margin-right: 1.7rem;
+}
+
+.example {
+  width: 32rem;
+  height: 7rem;
+  background-color: #2b5797;
+  color: #fff;
+  padding: 1.5rem 0 0 1.7rem;
+  margin-bottom: 1.8rem;
+}
+
+.example span {
+  color: #fff;
+}
+
+.example::before {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  width: 3.8rem;
+  height: 3.8rem;
+  background-position: -1rem -8.3rem;
+  color: #fff;
+  position: relative;
+  margin-right: 1.7rem;
+}
+
+.video {
+  width: 32rem;
+  height: 7rem;
+  background-color: #ffc40d;
+  color: #fff;
+  padding: 1.5rem 0 0 1.7rem;
+  margin-bottom: 1.8rem;
+}
+
+.video span {
+  color: #fff;
+}
+
+.video::before {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  width: 3.7rem;
+  height: 3.7rem;
+  background-position: -6.8rem -8.3rem;
+  color: #fff;
+  position: relative;
+  margin-right: 1.7rem;
+}
+
+.video::after {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  background-position: -4.6rem -13.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.2rem;
+  border: 0.2rem solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  top: -3.4rem;
+  left: 26.9rem;
+}
+
+.about-product-img {
+  display: block;
+  border: 0.3rem solid #cccccc;
+  margin-bottom: 1.8rem;
+}
+/* РАЗНОЦВЕТНЫЕ БЛОКИ */
+.product-properties {
+  border-left: 1.9rem solid #00a300;
+  margin-bottom: 1.8rem;
+}
+Ю .product-properties:nth-of-type(2) {
+  border-left: 1.9rem solid #ffc40d;
+}
+
+.product-properties:nth-of-type(3) {
+  border-left: 1.9rem solid #2d89ef;
+}
+.product-properties-article {
+  border-top: 0.1rem solid #cccccc;
+  border-right: 0.1rem solid #cccccc;
+  border-bottom: 0.1rem solid #cccccc;
+  padding: 1.6rem;
+}
+.product-properties-heading {
+  color: #00a300;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: large;
+}
+.i2c {
+  color: #ffc40d;
+}
+.uart {
+  color: #2d89ef;
+}
+/* ФОРМА */
+.form {
+  background: #f1f1f1;
+  position: relative;
+}
+.form-heading {
+  background: #c3325f;
+  margin-bottom: 1.8rem;
+  padding: 1.5rem 0 0 1.7rem;
+}
+.form-heading::before {
+  content: "";
+  display: inline-block;
+  background: url(./img/css_sprites.png);
+  background-position: -18.3rem -8.3rem;
+  width: 3.1rem;
+  height: 3.2rem;
+  color: #fff;
+  margin-right: 1.7rem;
+}
+.form-heading::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid #c3325f;
+  border-right: 0.5rem solid transparent;
+  right: 29.5rem;
+}
+.form-heading h3 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.footer-link {
+  display: inline;
+}
+/* для медиа */
+/* .logo-stuff {
+  float: left;
+} */
+/* .menu-stuff {
+  float: right;
+} */
+/* .header::after {
+  display: block;
+  content: "";
+  clear: both;
+} */
+/* .menu-link:not(:last-child) {
+  margin-right: 5.2rem;
+} */
+/* .menu-link:hover {
+  border-color: red;
+} */
