@@ -38,9 +38,11 @@ h3 {
   font-size: 1.2rem;
   margin: 0 auto;
 }
+
 .logo {
   margin: 0 auto;
 }
+
 .logo a {
   display: block;
   background-image: url(./img/css_sprites.png);
@@ -57,13 +59,14 @@ h3 {
   font-size: 2.3rem;
   margin-bottom: 1.8rem;
 }
-/* МЕНЮХА */
+/* МЕНЮ */
 
 .menu-links:after {
   content: "";
   display: block;
   clear: both;
 }
+
 .menu-link {
   width: 6rem;
   display: block;
@@ -74,18 +77,23 @@ h3 {
   float: left;
 }
 
-.menu-link:hover {
-  color: #d44a26;
-}
-
 .menu-main {
   border-color: #2d89ef;
+}
+
+.menu-main:hover {
+  color: #2d89ef;
 }
 
 .menu-products {
   border-color: #603cba;
   position: relative;
 }
+
+.menu-products:hover {
+  color: #603cba;
+}
+
 .menu-products:after {
   content: "";
   position: absolute;
@@ -101,13 +109,25 @@ h3 {
   border-color: #01a31c;
 }
 
+.menu-services:hover {
+  color: #01a31c;
+}
+
 .menu-about {
   border-color: #d44a26;
+}
+
+.menu-about:hover {
+  color: #d44a26;
 }
 
 .menu-contacts {
   border-color: #f0a427;
   margin-right: 0;
+}
+
+.menu-contacts:hover {
+  color: #f0a427;
 }
 
 /* СКАЧАТЬ И ПОИСК */
