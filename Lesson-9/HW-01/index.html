@@ -39,7 +39,6 @@
                 >
               </div>
             </div>
-
             <form action="#" method="POST" class="search-form">
               <div class="download-search">
                 <a href="#"><div class="download">Скачать наш прайс</div></a>
@@ -57,27 +56,29 @@
         </header>
         <main>
           <div class="about-product">
-            <div class="links">
-              <a href="#" class="about-poduct-link"
-                ><div class="describe">Описание продукта</div></a
-              >
-              <a href="#" class="about-poduct-link"
-                ><div class="doc-download">
-                  Скачать<span>Докум-ция, программы и драйверы</span>
-                </div></a
-              >
-              <a href="#" class="about-poduct-link "
-                ><div class="example">Примеры<span>С# API</span></div></a
-              >
-              <a href="#" class="about-poduct-link "
-                ><div class="video">Видео<span>Смотреть</span></div></a
-              >
+            <div class="links-and-img">
+              <div class="links">
+                <a href="#" class="about-product-link"
+                  ><div class="describe">Описание продукта</div></a
+                >
+                <a href="#" class="about-product-link"
+                  ><div class="doc-download">
+                    Скачать<span>Докум-ция, программы и драйверы</span>
+                  </div></a
+                >
+                <a href="#" class="about-product-link "
+                  ><div class="example">Примеры<span>С# API</span></div></a
+                >
+                <a href="#" class="about-product-link "
+                  ><div class="video">Видео<span>Смотреть</span></div></a
+                >
+              </div>
+              <img src="./img/pic.jpg" alt="device" class="about-product-img" />
             </div>
-            <img src="./img/pic.jpg" alt="device" class="about-product-img" />
             <article>
-              <h3 class="about-poduct-heading">Описание продукта</h3>
+              <h3 class="about-product-heading">Описание продукта</h3>
               <details>
-                <p class="about-poduct-text">
+                <p class="about-product-text">
                   Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                   вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
                   текстов на латинице с начала XVI века. В то время некий
@@ -90,7 +91,7 @@
                   электронной вёрстки типа Aldus PageMaker, в шаблонах которых
                   используется Lorem Ipsum.
                 </p>
-                <p class="about-poduct-text">
+                <p class="about-product-text">
                   Давно выяснено, что при оценке дизайна и композиции читаемый
                   текст мешает сосредоточиться. Lorem Ipsum используют потому,
                   что тот обеспечивает более или менее стандартное заполнение
@@ -158,7 +159,7 @@
                   вопросы по модулю...
                 </h3>
               </div>
-              <form action="#" method="POST">
+              <form action="#" method="POST" name="form">
                 <div class="select-form">
                   <select
                     name="type-of-treatment"
@@ -203,8 +204,6 @@
                   <textarea
                     name="message"
                     id="message"
-                    cols="40"
-                    rows="10"
                     placeholder="Сообщение*"
                     required
                   ></textarea>

@@ -30,13 +30,13 @@ h3 {
 }
 
 .wrapper {
-  min-width: 32rem;
+  width: 32rem;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 32rem;
+  min-width: 32rem;
   font-size: 1.2rem;
-  margin: 0 auto;
 }
 
 .logo {
@@ -174,8 +174,8 @@ h3 {
   border: 0.1rem solid #cccccc;
 }
 .search button {
-  height: 26px;
-  width: 26px;
+  height: 2.6rem;
+  width: 2.6rem;
   position: absolute;
   top: 1.1rem;
   right: 3rem;
@@ -186,7 +186,9 @@ h3 {
   cursor: pointer;
 }
 /* описание продукта */
-
+/* .links {
+  width: 31.4rem;
+} */
 .describe {
   width: 32rem;
   height: 7rem;
@@ -357,11 +359,13 @@ h3 {
   background: #f1f1f1;
   position: relative;
 }
+
 .form-heading {
   background: #c3325f;
   margin-bottom: 1.8rem;
   padding: 1.5rem 0 0 1.7rem;
 }
+
 .form-heading::before {
   content: "";
   display: inline-block;
@@ -372,6 +376,7 @@ h3 {
   color: #fff;
   margin-right: 1.7rem;
 }
+
 .form-heading::after {
   content: "";
   position: absolute;
@@ -381,17 +386,24 @@ h3 {
   border-right: 0.5rem solid transparent;
   right: 29.5rem;
 }
+
 .form-heading h3 {
   color: #ffffff;
   font-weight: 300;
   font-size: 1rem;
 }
+
 .form-group {
   margin-bottom: 1rem;
   display: block;
   width: 100%;
   border: 0.1rem solid #cccccc;
   background-color: #fff;
+}
+
+.form-group input {
+  width: 100%;
+  outline: none;
 }
 
 .submit-form input[type="submit"] {
