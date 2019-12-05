@@ -125,8 +125,7 @@
                 necessitatibus odio facilis sint, enim blanditiis debitis hic
                 qui quod a? Tenetur ullam corporis, aliquid pariatur laborum quo
                 consectetur possimus facilis animi necessitatibus iste, ad
-                corrupti dolor, accusamus a dolorem quam voluptatum dicta earum
-                cum nesciunt?
+                corrupti dolor, accusamus a dolorem quam voluptatum
               </p>
               <h3 class="about-description-skills">skills</h3>
               <ul class="skills-list">
@@ -160,15 +159,17 @@
                   placeholder="PHONE"
                   minlength="10"
                   maxlength="12"
+                  pattern="[0-9]"
                 />
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="MESSAGE"
-                  rows="7"
-                  required
-                ></textarea>
-                <input type="submit" value="send" />
+                <div class="about-form-message">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="MESSAGE"
+                    required
+                  ></textarea>
+                  <input type="submit" value="send" />
+                </div>
               </form>
             </div>
           </div>
