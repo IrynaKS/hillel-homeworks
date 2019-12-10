@@ -16,7 +16,7 @@ li {
 h3,
 h2 {
   font-family: "Roboto Slab", serif;
-  color: #3d4449;
+  color: rgb(61, 68, 73);
 }
 
 a {
@@ -35,7 +35,7 @@ img {
 
 .container {
   margin: 0 auto;
-  max-width: 76.8rem;
+  max-width: 102.4rem;
   padding: 2.5rem;
 }
 
@@ -351,7 +351,7 @@ header::after {
   margin-bottom: 2.7rem;
 }
 
-@media screen and (min-width: 450px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .menu {
     background-color: transparent;
     border: transparent;
