@@ -1,3 +1,5 @@
+@import "./fonts.css";
+
 html {
   font-size: 62.5%;
 }
@@ -6,10 +8,9 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* secondary-font: "Roboto", sans-serif; */
 li {
   list-style: none;
 }
@@ -68,7 +69,7 @@ img {
 
 .topline-contacts-link,
 .topline-menu-link {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   color: #fff;
@@ -115,11 +116,10 @@ nav {
   position: relative;
 }
 
-.header-bottomline-logo {}
 
 .logo-header::first-letter {
   color: #1abc9c;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .logo-header {
@@ -128,7 +128,7 @@ nav {
   text-transform: uppercase;
   color: #555252;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: transform 200ms linear;
 }
 
@@ -334,3 +334,25 @@ nav {
 }
 
 /* M A I N   I N F O */
+.l-main-info {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10rem 0 0 0;
+}
+
+.main-info-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-info-item {
+  max-width: 25rem;
+}
+
+.main-settings svg {
+  fill: #1abc;
+  width: 30px;
+  height: 30px;
+  background: yellow;
+}
