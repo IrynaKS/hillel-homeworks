@@ -1,0 +1,217 @@
+/* В Е Р Х Н И Й     Х Е Д Д Е Р  */
+.l-header-topline {
+    background-color: $hover-color;
+}
+
+.header-topline {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topline-contacts-list,
+.topline-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.topline-contacts-item:not(:last-child),
+.topline-menu-item:not(:last-child) {
+    padding-right: 3rem;
+}
+
+.topline-contacts-link,
+.topline-menu-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: $white-color;
+    transition: color 200ms linear;
+}
+
+.topline-contacts-link::after,
+.topline-menu-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    margin: 0.2rem auto 0;
+    border-bottom: 0.1rem solid $white-color;
+    -webkit-transition: width 200ms;
+    -o-transition: width 200ms;
+    transition: width 200ms;
+}
+
+.topline-contacts-link:hover,
+.topline-contacts-link:focus,
+.topline-menu-link:hover,
+.topline-menu-link:focus {
+    color: $white-color;
+}
+
+.topline-contacts-link:hover::after,
+.topline-menu-link:hover::after {
+    width: 100%;
+}
+
+/* Н И Ж Н И Й     Х Е Д Д Е Р */
+
+.l-header-bottomline {
+    background-color: $white-color;
+    border-bottom: 1px solid $hover-color;
+}
+
+.header-bottomline {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+
+.logo-header::first-letter {
+    color: $hover-color;
+    font-weight: 700;
+}
+
+.logo-header {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $main-text-color;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 200ms linear;
+}
+
+.logo-header:hover,
+.logo-header:focus {
+    transform: scale(1.15);
+}
+
+.header-bottomline-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-bottomline-item:not(:last-child) {
+    padding-right: 1rem;
+}
+
+.header-bottom-link {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: $black-color;
+    font-weight: bold;
+    transition: color 200ms linear;
+}
+
+
+.header-bottom-link:hover,
+.header-bottom-link:focus,
+.header-bottom-link:active {
+    color: $hover-color;
+}
+
+.header-cart-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-cart-item:not(:last-child) {
+    padding-right: 1rem;
+}
+
+.header-cart-link {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: $black-color;
+}
+
+.header-cart-link:hover,
+.header-cart-link:focus {
+    color: $hover-color;
+    transition: color 200ms linear;
+}
+
+.cart-basket {
+    display: inline-block;
+    position: relative;
+
+}
+
+.cart-basket-body {
+    font-size: 1.4rem;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid $black-color;
+    position: relative;
+    text-align: center;
+    background: $white-color;
+    color: $hover-color;
+    z-index: 2;
+}
+
+.cart-basket-handle {
+    position: absolute;
+    width: 1.1rem;
+    height: 1.1rem;
+    border: 1px solid $black-color;
+    border-radius: 50%;
+    top: -6px;
+    right: 5px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .header-topline {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header-bottomline {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem 0;
+    }
+
+    .header-bottomline-item:not(:last-child) {
+        padding-right: 2rem;
+    }
+
+    .topline-contacts-list,
+    .topline-menu-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1.8rem 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        max-width: 160rem;
+    }
+
+    .header-bottomline {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem 0;
+    }
+
+    .topline-contacts-list,
+    .topline-menu-list {
+        justify-content: space-between;
+    }
+
+
+}

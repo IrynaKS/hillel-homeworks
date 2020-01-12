@@ -1,0 +1,177 @@
+.collection {
+    background-color: $background-cards-color;
+    margin-bottom: 10rem;
+
+}
+
+.l-collection {
+    padding: 5rem 0 10rem 0;
+
+}
+
+.sections-header {
+    text-transform: uppercase;
+    font-size: 4.8rem;
+    font-family: $secondary-font;
+    color: $headers-color;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.8rem;
+}
+
+.collection-header__underline {
+    margin: 0 auto;
+    margin-bottom: 7.8rem;
+    border-top: 2px solid $background-cards-color;
+    border-bottom: 2px solid $background-cards-color;
+}
+
+
+.l-collection-list {
+    margin: 0 auto;
+}
+
+.collection-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection-item {
+    max-width: 26rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.collection-item:hover .collection-item-overlay {
+    opacity: 1;
+}
+
+.collection-item:hover .collection-item-name {
+    background: $hover-color;
+}
+
+.collection-item:hover .collection-item-price {
+    background: $hover-light-color;
+}
+
+.collection-overlay-icon:hover {
+    background: $hover-color;
+    border-color: $hover-color;
+}
+
+.collection-item:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.collection-item-sign {
+    display: grid;
+    grid-template-columns: 3fr 20%;
+    grid-template-rows: 3rem;
+    color: $white-color;
+    font-family: $secondary-font;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.collection-item-name {
+    padding-left: 1.5rem;
+    background-color: $black-color;
+    display: grid;
+    justify-content: start;
+    align-content: center;
+}
+
+.collection-item-price {
+    padding: 1rem;
+    background-color: $headers-color;
+    color: $white-color;
+    text-transform: uppercase;
+    display: -ms-grid;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.collection-overlay-icon {
+    color: $white-color;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid $white-color;
+    background: transparent;
+}
+
+.collection-item-overlay {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 1rem;
+    font-size: 3rem;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1rem solid rgba(255, 255, 255, 0.8);
+    color: $white-color;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.icon-cart {
+    grid-column: 1 / 4;
+    width: 100%;
+    background-color: $cart-color;
+    font-size: 3rem;
+}
+
+
+
+.icon-cart span {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: $main-font;
+}
+
+@media screen and (min-width: 768px) {
+    .collection-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+
+    .collection-item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .collection-item:nth-child(-n+2) {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .l-collection {
+        padding-top: 10rem;
+    }
+
+    .collection-list {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        max-width: 111rem;
+    }
+
+    .collection-item {
+        margin: 0;
+        max-width: 22.5rem;
+    }
+
+    .collection-item:nth-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+
+}

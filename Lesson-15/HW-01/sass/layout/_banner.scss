@@ -1,0 +1,26 @@
+.banner {
+    background: url(/HW-01/img/sale-banner.png);
+    background-repeat: no-repeat;
+}
+
+.banner-info {
+    padding: 17rem 0 13rem 0;
+    color: $white-color;
+    font-family: $main-font;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info-header {
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+.banner-info-text {
+    font-size: 3rem;
+    font-weight: 100;
+}

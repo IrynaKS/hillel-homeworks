@@ -1,0 +1,7 @@
+.underline {
+    width: 16.4rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    background-color: $hover-color;
+    box-shadow: 0 2px 0 $hover-color, 0 -2px 0 $hover-color;
+}

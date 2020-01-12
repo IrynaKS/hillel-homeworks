@@ -11,23 +11,27 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+    />
+    <link rel="stylesheet" href="./sass/styles.css" />
   </head>
   <body>
     <div class="wrapper">
       <header>
         <!-- В Е Р Х Н И Й Х Е Д Д Е Р -->
         <div class="l-header-topline">
-          <div class="header-topline">
+          <div class="header-topline container">
             <ul class="topline-contacts-list">
               <li class="topline-contacts-item">
-                <a href="tel:123-123456789" class="topline-contacts-link"
-                  ><i class="fas fa-phone"></i> 123-123456789</a
+                <a href="tel:123-123456789" class="topline-contacts-link">
+                  <i class="pe-7s-call pe-lg pe-va"></i> 123-123456789</a
                 >
               </li>
               <li class="topline-contacts-item">
                 <a href="mailto:info@ltnt.com" class="topline-contacts-link">
-                  <i class="far fa-envelope"></i> info&#64;ltnt.com</a
+                  <i class="pe-7s-mail pe-2x pe-va"></i> info&#64;ltnt.com</a
                 >
               </li>
             </ul>
@@ -46,7 +50,7 @@
               </li>
               <li class="topline-menu-item">
                 <a href="#" class="topline-menu-link"
-                  ><i class="fas fa-shopping-bag"></i> Login/Register</a
+                  ><i class="pe-7s-lock"></i> Login/Register</a
                 >
               </li>
             </ul>
@@ -54,7 +58,7 @@
         </div>
         <!-- Н И Ж Н И Й Х Е Д Д Е Р  -->
         <div class="l-header-bottomline">
-          <div class="header-bottomline">
+          <div class="header-bottomline container">
             <a href="#" class="header-bottomline-logo"
               ><h1 class="logo-header">mart</h1></a
             >
@@ -102,9 +106,9 @@
       <section class="slider">
         <div class="l-slider">
           <button class="slider-button slider-button-prev icon-angle">
-            <i class="fas fa-angle-left"></i></button
+            <i class="pe-7s-angle-left"></i></button
           ><button class="slider-button slider-button-next icon-angle">
-            <i class="fas fa-angle-right"></i>
+            <i class="pe-7s-angle-right"></i>
           </button>
           <div class="slider-slides">
             <ul class="slides-list">
@@ -132,57 +136,491 @@
       </section>
 
       <!-- M A I N    I N F O -->
-      <section class="main-info">
+      <section class="main-info container">
         <div class="l-main-info">
           <ul class="main-info-list">
             <li class="main-info-item">
-              <a href="#" class="main-info-link main-settings">
-                <svg>
-                  <use href="./img/sprite.svg#settings"></use>
-                </svg>
-                <h3 class="main-info-header">setting</h3>
+              <a href="#" class="main-info-link">
+                <div class="l-main-link-header">
+                  <i class="pe-7s-settings main-icon"></i>
+                  <h3 class="main-info-header">setting</h3>
+                </div>
                 <p class="main-header-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Corporis iure sint totam temporibus excepturi dolor non
-                  explicabo officiis asperiores, ad earum quod dolorum nesciunt
-                  quis inventore quasi consectetur repellat! Ipsam.
+                  explicabo officiis asperiores
                 </p>
               </a>
             </li>
             <li class="main-info-item">
               <a href="#" class="main-info-link">
-                <h3 class="main-info-header">money back</h3>
+                <div class="l-main-link-header">
+                  <i class="pe-7s-safe main-icon"></i>
+                  <h3 class="main-info-header">money back</h3>
+                </div>
                 <p class="main-header-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Corporis iure sint totam temporibus excepturi dolor non
-                  explicabo officiis asperiores, ad earum quod dolorum nesciunt
-                  quis inventore quasi consectetur repellat! Ipsam.
+                  explicabo officiis asperiores
                 </p>
               </a>
             </li>
             <li class="main-info-item">
               <a href="#" class="main-info-link">
-                <h3 class="main-info-header">worldwide shipping</h3>
+                <div class="l-main-link-header">
+                  <i class="pe-7s-global main-icon"></i>
+                  <h3 class="main-info-header">worldwide shipping</h3>
+                </div>
                 <p class="main-header-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Corporis iure sint totam temporibus excepturi dolor non
-                  explicabo officiis asperiores, ad earum quod dolorum nesciunt
-                  quis inventore quasi consectetur repellat! Ipsam.
+                  explicabo officiis asperiores
                 </p>
               </a>
             </li>
             <li class="main-info-item">
               <a href="#" class="main-info-link">
-                <h3 class="main-info-header">worldwide shipping</h3>
+                <div class="l-main-link-header">
+                  <i class="pe-7s-compass main-icon"></i>
+                  <h3 class="main-info-header">worldwide shipping</h3>
+                </div>
                 <p class="main-header-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Corporis iure sint totam temporibus excepturi dolor non
-                  explicabo officiis asperiores, ad earum quod dolorum nesciunt
-                  quis inventore quasi consectetur repellat! Ipsam.
+                  explicabo officiis asperiores
                 </p>
               </a>
             </li>
           </ul>
+        </div>
+      </section>
+      <!-- N E W     C O L L E C T I O N -->
+      <section class="collection">
+        <div class="l-collection container">
+          <h2 class="collection-header sections-header">new collection</h2>
+          <div class="collection-header__underline underline"></div>
+          <div class="l-collection-list">
+            <ul class="collection-list">
+              <li class="collection-item">
+                <div class="collection-item-card">
+                  <div class="collection-item-img">
+                    <img src="./img/product1.jpg" alt="product1" />
+                    <div class="collection-item-sign">
+                      <div class="collection-item-name">blue t-shirt</div>
+                      <div class="collection-item-price">26$</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="collection-item-overlay">
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-heard"
+                  >
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-arrow"
+                  >
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-clock"
+                  >
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-cart"
+                  >
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+
+              <li class="collection-item">
+                <div class="collection-item-card">
+                  <div class="collection-item-img">
+                    <img src="./img/product2.jpg" alt="product1" />
+                  </div>
+                  <div class="collection-item-sign">
+                    <div class="collection-item-name">woman shirt</div>
+                    <div class="collection-item-price">31$</div>
+                  </div>
+                </div>
+                <div class="collection-item-overlay">
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-heard"
+                  >
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-arrow"
+                  >
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-clock"
+                  >
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-cart"
+                  >
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+
+              <li class="collection-item">
+                <div class="collection-item-card">
+                  <div class="collection-item-img">
+                    <img src="./img/product3.jpg" alt="product1" />
+                  </div>
+                  <div class="collection-item-sign">
+                    <div class="collection-item-name">yellow t-shirt</div>
+                    <div class="collection-item-price">21$</div>
+                  </div>
+                </div>
+                <div class="collection-item-overlay">
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-heard"
+                  >
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-arrow"
+                  >
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-clock"
+                  >
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-cart"
+                  >
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+
+              <li class="collection-item">
+                <div class="collection-item-card">
+                  <div class="collection-item-img">
+                    <img src="./img/product4.jpg" alt="product1" />
+                  </div>
+                  <div class="collection-item-sign">
+                    <div class="collection-item-name">cool lingerie</div>
+                    <div class="collection-item-price">56$</div>
+                  </div>
+                </div>
+                <div class="collection-item-overlay">
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-heard"
+                  >
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-arrow"
+                  >
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-clock"
+                  >
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="collection-overlay-icon icon-cart"
+                  >
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- F E A T U R E D   P R O D U C T S -->
+      <section class="products">
+        <div class="l-products container">
+          <h2 class="products-header sections-header">featured products</h2>
+          <div class="products-header__underline underline"></div>
+          <ul class="products-filter-list">
+            <li class="products-filter-item">
+              <button type="button" class="products-filter-button">
+                all
+                <div class="product-filter-count">8</div>
+              </button>
+            </li>
+            <li class="products-filter-item">
+              <button type="button" class="products-filter-button">
+                dresses and suits
+                <div class="product-filter-count">1</div>
+              </button>
+            </li>
+            <li class="products-filter-item">
+              <button type="button" class="products-filter-button">
+                accessories
+                <div class="product-filter-count">3</div>
+              </button>
+            </li>
+            <li class="products-filter-item">
+              <button type="button" class="products-filter-button">
+                Miscellaneous
+                <div class="product-filter-count">5</div>
+              </button>
+            </li>
+          </ul>
+          <div class="l-product-list">
+            <ul class="product-list">
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic1.jpg" alt="product1" />
+                    <div class="product-item-sign">
+                      <div class="product-item-name">blue t-shirt</div>
+                      <div class="product-item-price">26$</div>
+                    </div>
+                  </div>
+                  <div class="product-item-new">new</div>
+                  <div class="product-item-sale">sale</div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic2.jpg" alt="product2" />
+                  </div>
+                  <div class="product-item-sign">
+                    <div class="product-item-name">woman shirt</div>
+                    <div class="product-item-price">31$</div>
+                  </div>
+                  <div class="product-item-new">new</div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic3.jpg" alt="product3" />
+                  </div>
+                  <div class="product-item-sign">
+                    <div class="product-item-name">yellow t-shirt</div>
+                    <div class="product-item-price">21$</div>
+                  </div>
+                  <div class="product-item-new">new</div>
+                  <div class="product-item-sale">sale</div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic4.jpg" alt="product4" />
+                  </div>
+                  <div class="product-item-sign">
+                    <div class="product-item-name">cool lingerie</div>
+                    <div class="product-item-price">56$</div>
+                  </div>
+                  <div class="product-item-sale">sale</div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic5.jpg" alt="product5" />
+                  </div>
+                  <div class="product-item-sign">
+                    <div class="product-item-name">cool lingerie</div>
+                    <div class="product-item-price">56$</div>
+                  </div>
+                  <div class="product-item-sale">sale</div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic6.jpg" alt="product6" />
+                  </div>
+                  <div class="product-item-sign">
+                    <div class="product-item-name">cool lingerie</div>
+                    <div class="product-item-price">56$</div>
+                  </div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic7.jpg" alt="product7" />
+                  </div>
+                  <div class="product-item-sign">
+                    <div class="product-item-name">cool lingerie</div>
+                    <div class="product-item-price">56$</div>
+                  </div>
+                  <div class="product-item-new">new</div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-item-card">
+                  <div class="product-item-img">
+                    <img src="./img/pic8.jpg" alt="product8" />
+                  </div>
+                  <div class="product-item-sign">
+                    <div class="product-item-name">cool lingerie</div>
+                    <div class="product-item-price">56$</div>
+                  </div>
+                  <div class="product-item-sale">sale</div>
+                </div>
+                <div class="product-item-overlay">
+                  <button type="button" class="product-overlay-icon icon-heard">
+                    <i class="pe-7s-like"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-arrow">
+                    <i class="pe-7s-shuffle"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-clock">
+                    <i class="pe-7s-clock"></i>
+                  </button>
+                  <button type="button" class="product-overlay-icon icon-cart">
+                    <i class="pe-7s-cart"></i>
+                    <span>add to cart</span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="banner-info">
+          <h2 class="banner-info-header">end of season sale</h2>
+          <p class="banner-info-text">Uo to 35% off Women's Denim</p>
         </div>
       </section>
       <div class="block-with-socials">
