@@ -1,5 +1,3 @@
-/* S L I D E R */
-
 .slider {
   position: relative;
 }
@@ -76,13 +74,11 @@
   box-sizing: border-box;
 }
 
-
 .slides-button-main:hover,
 .slides-button-main:focus {
   background: $hover-color;
   transition: background 200ms linear;
 }
-
 
 .slides-link-description {
   font-family: "Roboto", sans-serif;
