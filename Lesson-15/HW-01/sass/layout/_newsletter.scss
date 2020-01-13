@@ -1,0 +1,92 @@
+.newsletter-header__underline {
+    margin: 0 auto;
+    border-top: 2px solid $hover-color;
+    border-bottom: 2px solid $hover-color;
+    margin-bottom: 3rem;
+}
+
+.newsletter {
+    position: relative;
+    background: url(../img/bg.png) no-repeat;
+    background-color: $hover-color;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10rem 0 13rem 0;
+    font-family: $main-font;
+    display: block;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.newsletter-text {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: $white-color;
+    margin-bottom: 4rem;
+}
+
+.newsletter-form {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.newsletter-email-input {
+    border: none;
+}
+
+.newsletter-email-input {
+    width: 100%;
+    padding: 1.5rem 0 1.5rem 2rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #555;
+    outline: none;
+}
+
+.newsletter-email-input::placeholder {
+    font-size: 1.4rem;
+    color: $main-text-color;
+    font-weight: 300;
+}
+
+.newsletter-email-input:focus {
+    border: none;
+}
+
+.newsletter-submit-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+}
+
+.pe-7s-next {
+    font-size: 3.5rem;
+    color: $white-color;
+    transition: 200ms linear;
+}
+
+.newsletter-submit-input {
+    opacity: 1;
+    background-color: $hover-color;
+    border-top: 1px solid $white-color;
+    border-right: 1px solid $white-color;
+    border-bottom: 1px solid $white-color;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.newsletter-form .pe-7s-next:hover {
+    transform: scale(1.15);
+}
+
+@media screen and (min-width: 768px) {
+    .newsletter-form {
+        max-width: 34%;
+    }
+}

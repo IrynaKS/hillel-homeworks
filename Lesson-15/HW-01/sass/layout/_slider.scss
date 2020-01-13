@@ -22,7 +22,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 1;
-  width: 60%;
+  width: 80%;
 }
 
 .slider-button {
@@ -47,18 +47,17 @@
 .icon-angle {
   width: 7rem;
   height: 7rem;
-  background-color: #4ec6ab;
+  background-color: $hover-color;
   opacity: 0.5;
-  color: #ffffff;
-  display: inline-block;
+  color: $white-color;
+  display: none;
   border: none;
   cursor: pointer;
-
 }
 
 .icon-angle:hover,
 .icon-angle:focus {
-  background-color: #1abc9c;
+  background-color: $hover-color;
   opacity: 1;
 }
 
@@ -67,20 +66,20 @@
   text-transform: uppercase;
   font-size: 1rem;
   font-family: "Roboto";
-  color: #fffcfc;
-  padding: 1.2rem 2.8rem;
-  border: 2px solid #1abc9c;
+  color: $white-color;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid $hover-color;
   position: absolute;
   top: 110%;
   transform: translateX(-50%);
   cursor: pointer;
-
+  box-sizing: border-box;
 }
 
 
 .slides-button-main:hover,
 .slides-button-main:focus {
-  background: #1abc9c;
+  background: $hover-color;
   transition: background 200ms linear;
 }
 
@@ -89,13 +88,13 @@
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
-  color: #fffcfc;
+  color: $white-color;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .slides-link-ampersand {
-  color: #1abc9c;
+  color: $hover-color;
   font-weight: 700;
 }
 
@@ -103,14 +102,14 @@
   font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
-  color: #fffcfc;
+  color: $white-color;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
 }
 
 .slides-link-text span {
-  color: #1abc9c;
+  color: $hover-color;
   font-weight: 600;
 }
 
@@ -123,9 +122,12 @@
 
   .slides-button-main {
     font-size: 1.4rem;
+    padding: 1.2rem 2.8rem;
+    border: 2px solid $hover-color;
   }
 
   .icon-angle {
+    display: inline-block;
     width: 10.4rem;
     height: 10.4rem;
   }
@@ -133,5 +135,9 @@
   .pe-7s-angle-right,
   .pe-7s-angle-left {
     font-size: 10rem;
+  }
+
+  .slides-item-info {
+    width: 60%;
   }
 }

@@ -1,0 +1,86 @@
+.customer {
+    margin-bottom: 8rem;
+}
+
+.customer-header__underline {
+    margin: 0 auto;
+    border-top: 2px solid $white-color;
+    border-bottom: 2px solid $white-color;
+    margin-bottom: 3rem;
+}
+
+.customer-review {
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.customer-review-img {
+    width: 22rem;
+    height: auto;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+
+.customer-review-text {
+    color: $main-text-color;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+}
+
+.customer-review-name {
+    color: $hover-color;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.customer-review-name::before {
+    content: '- '
+}
+
+.customer-review-name::after {
+    content: ' -'
+}
+
+.customer-review-location {
+    display: block;
+    color: $main-text-color;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.customer-review-member {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 29rem;
+    padding-top: 3rem;
+}
+
+.review-member-img {
+    width: 8.4rem;
+    height: 8.4rem;
+    border: 5px solid $black-color;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 200ms linear;
+    cursor: pointer;
+}
+
+.review-member-img:hover,
+.review-member-img:focus,
+.review-member-img:active {
+    border-color: $hover-color;
+    transform: scale(1.15);
+}
+
+// .review-member-img:not(:last-child) {
+//     margin-right: 3rem;
+// }

@@ -1,0 +1,121 @@
+.news {
+    margin-bottom: 10rem;
+}
+
+.l-news {
+    padding: 5rem 0 10rem 0;
+}
+
+.news-header__underline {
+    margin: 0 auto;
+    margin-bottom: 7.8rem;
+    border-top: 2px solid $background-cards-color;
+    border-bottom: 2px solid $background-cards-color;
+}
+
+.l-news-list {
+    margin: 0 auto;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-item {
+    max-width: 25.5rem;
+    margin: 0 auto;
+}
+
+.news-item:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.news-description-header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $main-text-color;
+    line-height: 1.7;
+    margin: 1.5rem 0 3rem 0;
+}
+
+.news-description-header::after {
+    content: "";
+    display: block;
+    width: 13.5rem;
+    margin-top: 1.5rem;
+    border-bottom: 3px solid $hover-color;
+}
+
+.news-description-text {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.news-description-link {
+    width: 16rem;
+    height: 5rem;
+    box-sizing: border-box;
+    background: $hover-color;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: $white-color;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid $hover-color;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms linear;
+}
+
+.news-description-link:hover,
+.news-description-link:focus {
+    background-color: $hover-light-color;
+    border: $hover-light-color;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .news-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        // align-items: space-between;
+        // max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .news-item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .news-item:nth-child(-n+2) {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .l-news {
+        padding-top: 10rem;
+    }
+
+    .news-list {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        max-width: 111rem;
+    }
+
+    .news-item {
+        margin: 0;
+        max-width: 30rem;
+    }
+
+    .news-item:nth-child(-n+2) {
+        margin-bottom: 0;
+    }
+}

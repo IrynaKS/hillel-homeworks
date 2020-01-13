@@ -20,8 +20,14 @@
 'layout/main',
 'layout/collection',
 'layout/featured-products',
-'layout/banner';
+'layout/banner',
+'layout/footer',
+'layout/customer-review',
+'layout/newsletter',
+'layout/partners',
+'layout/news';
 
 // 5. Components
 // @import 'components/button';
-@import 'components/underline';
+@import 'components/underline',
+'components/section-header';

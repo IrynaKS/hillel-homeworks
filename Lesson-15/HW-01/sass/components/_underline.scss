@@ -5,3 +5,11 @@
     background-color: $hover-color;
     box-shadow: 0 2px 0 $hover-color, 0 -2px 0 $hover-color;
 }
+
+.underline-reverse {
+    width: 16.4rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    background-color: $white-color;
+    box-shadow: 0 2px 0 $white-color, 0 -2px 0 $white-color;
+}
