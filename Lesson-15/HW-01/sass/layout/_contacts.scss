@@ -2,7 +2,7 @@
     position: relative;
     background: url(../img/map.png) no-repeat;
     background-color: $map-color;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
     padding: 5rem 0;
@@ -11,6 +11,21 @@
     text-align: center;
     width: 100%;
     z-index: 1;
+}
+
+.contacts:before {
+    content: '';
+    width: 100%;
+    background-color: $background-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.l-contacts {
+    position: relative;
 }
 
 .contacts-header {

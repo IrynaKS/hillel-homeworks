@@ -1,11 +1,6 @@
-/* M A I N   I N F O */
-.main-info {
-    margin-bottom: 5rem;
-}
-
 .l-main-info {
     margin: 0 auto;
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 
 .main-info-list {
@@ -58,7 +53,6 @@
     .main-info {
         width: 70%;
         margin: 0 auto;
-        margin-bottom: 5rem;
     }
 
     .main-info-list {
@@ -84,7 +78,7 @@
 
 @media screen and (min-width: 1024px) {
     .l-main-info {
-        padding-top: 10rem;
+        padding: 10rem 0;
     }
 
     .main-info {

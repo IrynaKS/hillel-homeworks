@@ -613,7 +613,7 @@ button {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
-  color: #ffffff;
+  color: white;
   -webkit-transition: color 200ms linear;
   transition: color 200ms linear;
 }
@@ -624,7 +624,7 @@ button {
   display: block;
   width: 0;
   margin: 0.2rem auto 0;
-  border-bottom: 0.1rem solid #ffffff;
+  border-bottom: 0.1rem solid white;
   -webkit-transition: width 200ms;
   transition: width 200ms;
 }
@@ -633,7 +633,7 @@ button {
 .topline-contacts-link:focus,
 .topline-menu-link:hover,
 .topline-menu-link:focus {
-  color: #ffffff;
+  color: white;
 }
 
 .topline-contacts-link:hover::after,
@@ -643,7 +643,7 @@ button {
 
 /* Н И Ж Н И Й     Х Е Д Д Е Р */
 .l-header-bottomline {
-  background-color: #ffffff;
+  background-color: white;
   border-bottom: 1px solid #1abc9c;
 }
 
@@ -754,7 +754,7 @@ button {
   border: 1px solid #0f0101;
   position: relative;
   text-align: center;
-  background: #ffffff;
+  background: white;
   color: #1abc9c;
   z-index: 2;
 }
@@ -890,7 +890,7 @@ button {
   height: 7rem;
   background-color: #1abc9c;
   opacity: 0.5;
-  color: #ffffff;
+  color: white;
   display: none;
   border: none;
   cursor: pointer;
@@ -907,7 +907,7 @@ button {
   text-transform: uppercase;
   font-size: 1rem;
   font-family: "Roboto";
-  color: #ffffff;
+  color: white;
   padding: 0.8rem 1.5rem;
   border: 1px solid #1abc9c;
   position: absolute;
@@ -930,7 +930,7 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
-  color: #ffffff;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -944,7 +944,7 @@ button {
   font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
-  color: #ffffff;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
@@ -979,14 +979,9 @@ button {
   }
 }
 
-/* M A I N   I N F O */
-.main-info {
-  margin-bottom: 5rem;
-}
-
 .l-main-info {
   margin: 0 auto;
-  padding-top: 5rem;
+  padding: 5rem 0;
 }
 
 .main-info-list {
@@ -1045,7 +1040,6 @@ button {
   .main-info {
     width: 70%;
     margin: 0 auto;
-    margin-bottom: 5rem;
   }
   .main-info-list {
     display: -webkit-box;
@@ -1075,7 +1069,7 @@ button {
 
 @media screen and (min-width: 1024px) {
   .l-main-info {
-    padding-top: 10rem;
+    padding: 10rem 0;
   }
   .main-info {
     width: 90%;
@@ -1097,7 +1091,6 @@ button {
 
 .collection {
   background-color: #e9f0fd;
-  margin-bottom: 10rem;
 }
 
 .l-collection {
@@ -1159,7 +1152,7 @@ button {
       grid-template-columns: 3fr 20%;
   -ms-grid-rows: 3rem;
       grid-template-rows: 3rem;
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -1180,7 +1173,7 @@ button {
 .collection-item-price {
   padding: 1rem;
   background-color: #515151;
-  color: #ffffff;
+  color: white;
   text-transform: uppercase;
   display: -ms-grid;
   display: grid;
@@ -1192,10 +1185,10 @@ button {
 }
 
 .collection-overlay-icon {
-  color: #ffffff;
+  color: white;
   width: 5rem;
   height: 5rem;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   background: transparent;
 }
 
@@ -1218,10 +1211,10 @@ button {
       align-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1rem solid rgba(255, 255, 255, 0.8);
-  color: #ffffff;
+  color: white;
   opacity: 0;
-  -webkit-transition: opacity 500ms;
-  transition: opacity 500ms;
+  -webkit-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
 }
 
 .icon-cart {
@@ -1262,7 +1255,7 @@ button {
 
 @media screen and (min-width: 1024px) {
   .l-collection {
-    padding-top: 10rem;
+    padding: 10rem 0;
   }
   .collection-list {
     -ms-flex-wrap: nowrap;
@@ -1281,15 +1274,15 @@ button {
   }
 }
 
-.products {
-  margin-bottom: 5rem;
+.l-products {
+  padding: 10rem 0;
 }
 
 .products-header__underline {
   margin: 0 auto;
   margin-bottom: 7.8rem;
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .products-filter-list {
@@ -1331,12 +1324,12 @@ button {
   outline: none;
   -webkit-transition: 200ms linear;
   transition: 200ms linear;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .products-filter-button:hover,
 .products-filter-button:focus {
-  color: #ffffff;
+  color: white;
   background: #1abc9c;
 }
 
@@ -1344,7 +1337,7 @@ button {
   width: 3rem;
   height: 3rem;
   color: #1abc9c;
-  background-color: #ffffff;
+  background-color: white;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
@@ -1416,7 +1409,7 @@ button {
       grid-template-columns: 3fr 20%;
   -ms-grid-rows: 3rem;
       grid-template-rows: 3rem;
-  color: #ffffff;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -1437,7 +1430,7 @@ button {
 .product-item-price {
   padding: 1rem;
   background-color: #515151;
-  color: #ffffff;
+  color: white;
   text-transform: uppercase;
   display: -ms-grid;
   display: grid;
@@ -1481,10 +1474,10 @@ button {
 }
 
 .product-overlay-icon {
-  color: #ffffff;
+  color: white;
   width: 5rem;
   height: 5rem;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   background: transparent;
 }
 
@@ -1508,10 +1501,10 @@ button {
       align-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1rem solid rgba(255, 255, 255, 0.8);
-  color: #ffffff;
+  color: white;
   opacity: 0;
-  -webkit-transition: opacity 500ms;
-  transition: opacity 500ms;
+  -webkit-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
 }
 
 .icon-cart {
@@ -1586,12 +1579,6 @@ button {
 }
 
 @media screen and (min-width: 1024px) {
-  .products {
-    margin-bottom: 10rem;
-  }
-  .l-product {
-    padding-top: 10rem;
-  }
   .product-list {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1607,19 +1594,37 @@ button {
   }
 }
 
-.banner-info-link {
+.l-banner {
+  position: relative;
+}
+
+.banner {
   position: relative;
   background: url(../img/sale-banner2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.banner::before {
+  content: '';
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.banner-info-link {
   padding: 17rem 0 13rem 0;
-  color: #ffffff;
+  color: white;
   font-family: "Open Sans", sans-serif;
   display: block;
   text-align: center;
-  width: 100%;
-  z-index: 1;
 }
 
 .banner-info-header {
@@ -1627,7 +1632,7 @@ button {
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
-  color: #ffffff;
+  color: white;
   z-index: 500;
 }
 
@@ -1640,7 +1645,7 @@ button {
   background-color: #0f0101;
   font-size: 1.6rem;
   font-weight: 300;
-  color: #ffffff;
+  color: white;
   text-align: center;
   padding: 3rem 0;
 }
@@ -1649,14 +1654,14 @@ button {
   color: #1abc9c;
 }
 
-.customer {
-  margin-bottom: 8rem;
+.l-customer {
+  padding: 5rem 0;
 }
 
 .customer-header__underline {
   margin: 0 auto;
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   margin-bottom: 3rem;
 }
 
@@ -1746,6 +1751,12 @@ button {
           transform: scale(1.15);
 }
 
+@media screen and (min-width: 1024px) {
+  .l-customer {
+    padding: 10rem 0;
+  }
+}
+
 .newsletter-header__underline {
   margin: 0 auto;
   border-top: 2px solid #1abc9c;
@@ -1771,7 +1782,7 @@ button {
 .newsletter-text {
   font-size: 1.4rem;
   font-weight: 300;
-  color: #ffffff;
+  color: white;
   margin-bottom: 4rem;
 }
 
@@ -1833,7 +1844,7 @@ button {
 
 .pe-7s-next {
   font-size: 3.5rem;
-  color: #ffffff;
+  color: white;
   -webkit-transition: 200ms linear;
   transition: 200ms linear;
 }
@@ -1841,9 +1852,9 @@ button {
 .newsletter-submit-input {
   opacity: 1;
   background-color: #1abc9c;
-  border-top: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
   border-left: none;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -1948,10 +1959,6 @@ button {
   }
 }
 
-.news {
-  margin-bottom: 10rem;
-}
-
 .l-news {
   padding: 5rem 0 10rem 0;
 }
@@ -2018,7 +2025,7 @@ button {
   background: #1abc9c;
   font-size: 1.4rem;
   font-weight: 300;
-  color: #ffffff;
+  color: white;
   padding: 0.8rem 1.5rem;
   border: 1px solid #1abc9c;
   border-radius: 4px;
@@ -2089,7 +2096,7 @@ button {
   position: relative;
   background: url(../img/map.png) no-repeat;
   background-color: #2d3237;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed;
   padding: 5rem 0;
@@ -2100,11 +2107,26 @@ button {
   z-index: 1;
 }
 
+.contacts:before {
+  content: '';
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.l-contacts {
+  position: relative;
+}
+
 .contacts-header {
   text-transform: uppercase;
   font-size: 4.8rem;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: white;
   font-weight: 700;
   text-align: center;
   margin-bottom: 2.8rem;
@@ -2139,7 +2161,7 @@ button {
 .contacts-info {
   max-width: 90%;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2156,7 +2178,7 @@ button {
   display: block;
   font-size: 7.2rem;
   font-weight: 300;
-  color: #ffffff;
+  color: white;
   margin-bottom: 2rem;
   cursor: pointer;
   -webkit-transition: 200ms linear;
@@ -2224,12 +2246,12 @@ button {
 
 .contacts-socials-link {
   display: block;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   width: 3rem;
   height: 3rem;
   padding: 0.5rem;
   font-size: 2rem;
-  color: #ffffff;
+  color: white;
   -webkit-transition: 200ms linear;
   transition: 200ms linear;
 }
@@ -2250,9 +2272,9 @@ button {
 .contacts-form input,
 .contacts-form textarea {
   background: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   padding-left: 1.8rem;
-  color: #ffffff;
+  color: white;
   font-size: 1.4rem;
   -webkit-transition: 200ms linear;
   transition: 200ms linear;
@@ -2268,28 +2290,28 @@ button {
 .contacts-form input::-webkit-input-placeholder,
 .contacts-form textarea::-webkit-input-placeholder {
   font-size: 1.4rem;
-  color: #ffffff;
+  color: white;
   font-weight: 300;
 }
 
 .contacts-form input:-ms-input-placeholder,
 .contacts-form textarea:-ms-input-placeholder {
   font-size: 1.4rem;
-  color: #ffffff;
+  color: white;
   font-weight: 300;
 }
 
 .contacts-form input::-ms-input-placeholder,
 .contacts-form textarea::-ms-input-placeholder {
   font-size: 1.4rem;
-  color: #ffffff;
+  color: white;
   font-weight: 300;
 }
 
 .contacts-form input::placeholder,
 .contacts-form textarea::placeholder {
   font-size: 1.4rem;
-  color: #ffffff;
+  color: white;
   font-weight: 300;
 }
 
@@ -2369,9 +2391,9 @@ button {
   height: 1.5rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 2px 0 #ffffff, 0 -2px 0 #ffffff;
-          box-shadow: 0 2px 0 #ffffff, 0 -2px 0 #ffffff;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 0 white, 0 -2px 0 white;
+          box-shadow: 0 2px 0 white, 0 -2px 0 white;
 }
 
 .sections-header {

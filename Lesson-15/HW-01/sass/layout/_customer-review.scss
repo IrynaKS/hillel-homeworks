@@ -1,5 +1,5 @@
-.customer {
-    margin-bottom: 8rem;
+.l-customer {
+    padding: 5rem 0;
 }
 
 .customer-header__underline {
@@ -81,6 +81,8 @@
     transform: scale(1.15);
 }
 
-// .review-member-img:not(:last-child) {
-//     margin-right: 3rem;
-// }
+@media screen and (min-width: 1024px) {
+    .l-customer {
+        padding: 10rem 0;
+    }
+}

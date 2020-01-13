@@ -1,5 +1,5 @@
-.products {
-    margin-bottom: 5rem;
+.l-products {
+    padding: 10rem 0;
 }
 
 .products-header__underline {
@@ -251,14 +251,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .products {
-        margin-bottom: 10rem;
-    }
-
-    .l-product {
-        padding-top: 10rem;
-    }
-
     .product-list {
         justify-content: space-between;
         max-width: 111rem;

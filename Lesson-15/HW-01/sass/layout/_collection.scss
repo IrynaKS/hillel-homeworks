@@ -1,6 +1,5 @@
 .collection {
     background-color: $background-cards-color;
-    margin-bottom: 10rem;
 }
 
 .l-collection {
@@ -139,7 +138,7 @@
 
 @media screen and (min-width: 1024px) {
     .l-collection {
-        padding-top: 10rem;
+        padding: 10rem 0;
     }
 
     .collection-list {
