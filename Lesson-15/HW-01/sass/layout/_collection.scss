@@ -103,7 +103,7 @@
     border: 1rem solid rgba(255, 255, 255, 0.8);
     color: $white-color;
     opacity: 0;
-    transition: opacity 500ms;
+    transition: opacity 500ms ease-in;
 }
 
 .icon-cart {

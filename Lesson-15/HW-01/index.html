@@ -13,6 +13,10 @@
     />
     <link
       rel="stylesheet"
+      href="fonts/fontawesome-free-5.12.0-web/css/fontawesome.css"
+    />
+    <link
+      rel="stylesheet"
       href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
     />
     <link rel="stylesheet" href="./sass/styles.css" />
@@ -365,25 +369,25 @@
             <li class="products-filter-item">
               <button type="button" class="products-filter-button">
                 all
-                <div class="product-filter-count">8</div>
+                <span class="product-filter-count">8</span>
               </button>
             </li>
             <li class="products-filter-item">
               <button type="button" class="products-filter-button">
                 dresses and suits
-                <div class="product-filter-count">1</div>
+                <span class="product-filter-count">1</span>
               </button>
             </li>
             <li class="products-filter-item">
               <button type="button" class="products-filter-button">
                 accessories
-                <div class="product-filter-count">3</div>
+                <span class="product-filter-count">3</span>
               </button>
             </li>
             <li class="products-filter-item">
               <button type="button" class="products-filter-button">
                 Miscellaneous
-                <div class="product-filter-count">5</div>
+                <span class="product-filter-count">5</span>
               </button>
             </li>
           </ul>
@@ -947,27 +951,133 @@
           </div>
         </div>
       </section>
+      <!-- C O N T A C T S -->
+      <section class="contacts">
+        <div class="l-contacts container">
+          <h2 class="contacts-header">get in touch</h2>
+          <div class="contacts-header__underline underline"></div>
+          <div class="contacts-section">
+            <div class="l-contacts-info">
+              <div class="contacts-info">
+                <a href="#" class="contacts-info-logo">Mart</a>
+                <h3 class="contacts-info-header">
+                  We'd love to meet you in person or via the web!
+                </h3>
+                <p class="contacts-info-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+                  natus eligendi velit reiciendis iste porro quam impedit
+                  temporibus eius! Accusantium, dolor molestiae quis deserunt
+                  sequi libero sed velit totam eligendi?
+                </p>
+                <ul class="contacts-info-list">
+                  <li class="contacts-info-item">
+                    <span>Main Office</span>: 123 Elm St. New York City, NY
+                  </li>
+                  <li class="contacts-info-item">
+                    <span>Phone</span>: 1.555.555.5555
+                  </li>
+                  <li class="contacts-info-item">
+                    <span>Email</span>: info@yourdomain.com
+                  </li>
+                </ul>
+              </div>
+              <div class="contacts-info-socials">
+                <ul class="contacts-socials-list">
+                  <li class="contacts-socials-item">
+                    <a href="https://facebook.com" class="contacts-socials-link"
+                      ><span class="visually-hidden">facebook</span
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li class="contacts-socials-item">
+                    <a
+                      href="https://twitter.com/?lang=ru"
+                      class="contacts-socials-link"
+                      ><span class="visually-hidden">twitter</span
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="contacts-socials-item">
+                    <a href="https://dribbble.com" class="contacts-socials-link"
+                      ><span class="visually-hidden">dribbble</span
+                      ><i class="fab fa-dribbble"></i
+                    ></a>
+                  </li>
+                  <li class="contacts-socials-item">
+                    <a
+                      href="https://www.linkedin.com"
+                      class="contacts-socials-link"
+                      ><span class="visually-hidden">linkedin</span
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="contacts-socials-item">
+                    <a href="https://codepen.io" class="contacts-socials-link"
+                      ><span class="visually-hidden">codepen</span
+                      ><i class="fab fa-codepen"></i
+                    ></a>
+                  </li>
+                  <li class="contacts-socials-item">
+                    <a href="https://github.com" class="contacts-socials-link"
+                      ><span class="visually-hidden">github</span
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-      <!-- <div class="block-with-socials">
-        <ul>
-          <li>
-            <a href="#"><span class="visually-hidden">facebook</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="visually-hidden">twitter</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="visually-hidden">linked in</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="visually-hidden">medium</span></a>
-            <a href="https://facebook.com/" class="social-link"
-              ><svg>
-                <use href="./img/sprite.svg#facebook"></use></svg
-            ></a>
-          </li>
-        </ul>
-      </div> -->
+            <div class="l-contact-form">
+              <form method="POST" action="#" class="contacts-form">
+                <input
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="Your Name"
+                  required
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+
+                <input
+                  type="text"
+                  name="text"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+
+                <input
+                  type="text"
+                  name="text"
+                  id="website"
+                  placeholder="Website URL"
+                  required
+                />
+
+                <textarea
+                  class="contacts-form-textarea"
+                  name="message"
+                  id="message"
+                  placeholder="Your Message..."
+                  required
+                ></textarea>
+
+                <div class="contact-form-group">
+                  <input type="submit" value="send" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer class="footer">
         <p>
           All Rights Reserved &#169; Dokan | Designed

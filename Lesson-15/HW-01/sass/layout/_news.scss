@@ -85,8 +85,11 @@
     .news-list {
         flex-direction: row;
         flex-wrap: wrap;
-        // align-items: space-between;
-        // max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .news-item {
+        max-width: 35rem;
         margin: 0 auto;
     }
 

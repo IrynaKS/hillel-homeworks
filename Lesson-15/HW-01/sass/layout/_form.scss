@@ -1,0 +1,215 @@
+.contacts {
+    position: relative;
+    background: url(../img/map.png) no-repeat;
+    background-color: $map-color;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5rem 0;
+    font-family: $main-font;
+    display: block;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.contacts-header {
+    text-transform: uppercase;
+    font-size: 4.8rem;
+    font-family: $secondary-font;
+    color: $white-color;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.8rem;
+}
+
+.contacts-header__underline {
+    margin: 0 auto;
+    margin-bottom: 7.8rem;
+    border-top: 2px solid $map-color;
+    border-bottom: 2px solid $map-color;
+}
+
+.contacts-section {
+    display: grid;
+}
+
+.l-contacts-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.contacts-info {
+    max-width: 90%;
+    font-family: $secondary-font;
+    color: $white-color;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts-info-logo {
+    display: block;
+    font-size: 7.2rem;
+    font-weight: 300;
+    color: $white-color;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 200ms linear;
+}
+
+.contacts-info-logo:hover,
+.contacts-info-logo:focus {
+    transform: scale(1.1);
+}
+
+.contacts-info-logo::first-letter {
+    color: $hover-color;
+}
+
+.contacts-info-header {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.contacts-info-text {
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+}
+
+.contacts-info-list {
+    text-align: left;
+}
+
+.contacts-info-item {
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.contacts-info-item span {
+    font-weight: 600;
+    color: $hover-color;
+}
+
+.contacts-info-socials {
+    max-width: 90%;
+}
+
+.contacts-socials-list {
+    width: 29rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-socials-link {
+    display: block;
+    border: 1px solid $white-color;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: $white-color;
+    transition: 200ms linear;
+}
+
+.contacts-socials-link:hover,
+.contacts-socials-link:focus {
+    background-color: $hover-color;
+    border-color: $hover-color;
+}
+
+.contacts-form {
+    display: grid;
+    grid-gap: 3rem;
+    grid-auto-rows: 5rem;
+}
+
+.contacts-form input,
+.contacts-form textarea {
+    background: transparent;
+    border: 1px solid $white-color;
+    padding-left: 1.8rem;
+    color: $white-color;
+    font-size: 1.4rem;
+    transition: 200ms linear;
+}
+
+.contacts-form input:hover,
+.contacts-form input:focus,
+.contacts-form textarea:hover,
+.contacts-form textarea:focus {
+    border: 1px solid $hover-color;
+}
+
+.contacts-form input::placeholder,
+.contacts-form textarea::placeholder {
+    font-size: 1.4rem;
+    color: $white-color;
+    font-weight: 300;
+}
+
+.contacts-form-textarea {
+    grid-row: 5/7;
+}
+
+.contacts-form .contacts-form-textarea {
+    grid-auto-rows: 12rem;
+    padding-top: 1.8rem;
+}
+
+.contact-form-group {
+    text-align: left;
+}
+
+.contact-form-group input {
+    width: 15rem;
+    height: 5rem;
+    background-color: $hover-color;
+    border: 1px solid $hover-color;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 0;
+    transition: 200ms linear;
+}
+
+.contact-form-group input:hover,
+.contact-form-group input:focus {
+    background-color: $hover-light-color;
+    border: 1px solid $hover-light-color;
+}
+
+@media screen and (min-width:1024px) {
+    .contacts {
+        padding: 10rem 0;
+    }
+
+    .l-contacts-info {
+        margin-bottom: 0;
+    }
+
+    .contacts-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contacts-form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+    }
+
+    .contacts-form-textarea {
+        grid-column: 1/3;
+        grid-row: 3/5;
+    }
+
+}
