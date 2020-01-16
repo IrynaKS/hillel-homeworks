@@ -84,19 +84,21 @@
     max-width: 26rem;
     margin: 0 auto;
     position: relative;
+
+    &:hover .product-item-overlay {
+        opacity: 1;
+    }
+
+    &:hover .product-item-name {
+        background: $hover-color;
+    }
+
+    &:hover .product-item-price {
+        background: $hover-light-color;
+    }
 }
 
-.product-item:hover .product-item-overlay {
-    opacity: 1;
-}
 
-.product-item:hover .product-item-name {
-    background: $hover-color;
-}
-
-.product-item:hover .product-item-price {
-    background: $hover-light-color;
-}
 
 .product-overlay-icon:hover {
     background: $hover-color;
@@ -217,6 +219,11 @@
 
     .products-filter-item {
         margin-bottom: 0;
+
+        &:hover .product-filter-count {
+            opacity: 1;
+        }
+
     }
 
     .product-filter-count {
@@ -224,9 +231,6 @@
         height: 4rem;
     }
 
-    .products-filter-item:hover .product-filter-count {
-        opacity: 1;
-    }
 
     .product-list {
         max-width: 60rem;

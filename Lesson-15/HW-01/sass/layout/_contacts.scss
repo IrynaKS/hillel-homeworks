@@ -73,11 +73,11 @@
     margin-bottom: 2rem;
     cursor: pointer;
     transition: 200ms linear;
-}
-
-.contacts-info-logo:hover,
-.contacts-info-logo:focus {
+    
+    &:hover,
+    &:focus {
     transform: scale(1.1);
+}
 }
 
 .contacts-info-logo::first-letter {
@@ -135,12 +135,12 @@
     font-size: 2rem;
     color: $white-color;
     transition: 200ms linear;
-}
 
-.contacts-socials-link:hover,
-.contacts-socials-link:focus {
+    &:hover,
+    &:focus {
     background-color: $hover-color;
     border-color: $hover-color;
+}
 }
 
 .contacts-form {
@@ -157,13 +157,11 @@
     color: $white-color;
     font-size: 1.4rem;
     transition: 200ms linear;
-}
 
-.contacts-form input:hover,
-.contacts-form input:focus,
-.contacts-form textarea:hover,
-.contacts-form textarea:focus {
-    border: 1px solid $hover-color;
+    &:hover,
+    &:focus {
+        border: 1px solid $hover-color;
+    }
 }
 
 .contacts-form input::placeholder,
@@ -195,13 +193,15 @@
     font-size: 1.6rem;
     padding: 0;
     transition: 200ms linear;
+
+    &:hover,
+    &:focus {
+        background-color: $hover-light-color;
+        border: 1px solid $hover-light-color;
+    }
 }
 
-.contact-form-group input:hover,
-.contact-form-group input:focus {
-    background-color: $hover-light-color;
-    border: 1px solid $hover-light-color;
-}
+
 
 @media screen and (min-width:1024px) {
     .contacts {

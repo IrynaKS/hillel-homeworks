@@ -51,13 +51,15 @@
   display: none;
   border: none;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+    opacity: 1;
+  }
 }
 
-.icon-angle:hover,
-.icon-angle:focus {
-  background-color: $hover-color;
-  opacity: 1;
-}
+
 
 .slides-button-main {
   background: transparent;

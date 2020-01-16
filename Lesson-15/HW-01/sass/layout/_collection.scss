@@ -26,19 +26,21 @@
     max-width: 26rem;
     margin: 0 auto;
     position: relative;
+
+    &:hover .collection-item-overlay {
+        opacity: 1;
+    }
+
+    &:hover .collection-item-name {
+        background: $hover-color;
+    }
+
+    &:hover .collection-item-price {
+        background: $hover-light-color;
+    }
 }
 
-.collection-item:hover .collection-item-overlay {
-    opacity: 1;
-}
 
-.collection-item:hover .collection-item-name {
-    background: $hover-color;
-}
-
-.collection-item:hover .collection-item-price {
-    background: $hover-light-color;
-}
 
 .collection-overlay-icon:hover {
     background: $hover-color;

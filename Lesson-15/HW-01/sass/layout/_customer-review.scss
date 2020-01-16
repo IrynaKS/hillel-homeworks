@@ -72,14 +72,16 @@
     object-fit: cover;
     transition: 200ms linear;
     cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: $hover-color;
+        transform: scale(1.15);
+    }
 }
 
-.review-member-img:hover,
-.review-member-img:focus,
-.review-member-img:active {
-    border-color: $hover-color;
-    transform: scale(1.15);
-}
+
 
 @media screen and (min-width: 1024px) {
     .l-customer {

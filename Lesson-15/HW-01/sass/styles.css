@@ -616,6 +616,12 @@ button {
   transition: color 200ms linear;
 }
 
+.topline-contacts-link:hover, .topline-contacts-link:focus,
+.topline-menu-link:hover,
+.topline-menu-link:focus {
+  color: white;
+}
+
 .topline-contacts-link::after,
 .topline-menu-link::after {
   content: "";
@@ -625,13 +631,6 @@ button {
   border-bottom: 0.1rem solid white;
   -webkit-transition: width 200ms;
   transition: width 200ms;
-}
-
-.topline-contacts-link:hover,
-.topline-contacts-link:focus,
-.topline-menu-link:hover,
-.topline-menu-link:focus {
-  color: white;
 }
 
 .topline-contacts-link:hover::after,
@@ -678,8 +677,7 @@ button {
   transition: transform 200ms linear, -webkit-transform 200ms linear;
 }
 
-.logo-header:hover,
-.logo-header:focus {
+.logo-header:hover, .logo-header:focus {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
@@ -707,9 +705,7 @@ button {
   transition: color 200ms linear;
 }
 
-.header-bottom-link:hover,
-.header-bottom-link:focus,
-.header-bottom-link:active {
+.header-bottom-link:hover, .header-bottom-link:focus, .header-bottom-link:active {
   color: #1abc9c;
 }
 
@@ -732,8 +728,7 @@ button {
   color: #0f0101;
 }
 
-.header-cart-link:hover,
-.header-cart-link:focus {
+.header-cart-link:hover, .header-cart-link:focus {
   color: #1abc9c;
   -webkit-transition: color 200ms linear;
   transition: color 200ms linear;
@@ -907,8 +902,7 @@ button {
   cursor: pointer;
 }
 
-.icon-angle:hover,
-.icon-angle:focus {
+.icon-angle:hover, .icon-angle:focus {
   background-color: #1abc9c;
   opacity: 1;
 }
@@ -1084,7 +1078,6 @@ button {
   }
   .main-info {
     width: 90%;
-    margin-bottom: 10rem;
   }
   .main-info-list {
     -ms-flex-wrap: nowrap;
@@ -1556,12 +1549,12 @@ button {
   .products-filter-item {
     margin-bottom: 0;
   }
+  .products-filter-item:hover .product-filter-count {
+    opacity: 1;
+  }
   .product-filter-count {
     width: 4rem;
     height: 4rem;
-  }
-  .products-filter-item:hover .product-filter-count {
-    opacity: 1;
   }
   .product-list {
     max-width: 60rem;
@@ -1754,9 +1747,7 @@ button {
   cursor: pointer;
 }
 
-.review-member-img:hover,
-.review-member-img:focus,
-.review-member-img:active {
+.review-member-img:hover, .review-member-img:focus, .review-member-img:active {
   border-color: #1abc9c;
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
@@ -1918,8 +1909,7 @@ button {
   transition: 200ms linear;
 }
 
-.partner-item:hover,
-.partner-item:focus {
+.partner-item:hover, .partner-item:focus {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
@@ -2054,8 +2044,7 @@ button {
   transition: 200ms linear;
 }
 
-.news-description-link:hover,
-.news-description-link:focus {
+.news-description-link:hover, .news-description-link:focus {
   background-color: #7fd9c7;
   border: #7fd9c7;
 }
@@ -2196,8 +2185,7 @@ button {
   transition: 200ms linear;
 }
 
-.contacts-info-logo:hover,
-.contacts-info-logo:focus {
+.contacts-info-logo:hover, .contacts-info-logo:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -2267,8 +2255,7 @@ button {
   transition: 200ms linear;
 }
 
-.contacts-socials-link:hover,
-.contacts-socials-link:focus {
+.contacts-socials-link:hover, .contacts-socials-link:focus {
   background-color: #1abc9c;
   border-color: #1abc9c;
 }
@@ -2291,8 +2278,7 @@ button {
   transition: 200ms linear;
 }
 
-.contacts-form input:hover,
-.contacts-form input:focus,
+.contacts-form input:hover, .contacts-form input:focus,
 .contacts-form textarea:hover,
 .contacts-form textarea:focus {
   border: 1px solid #1abc9c;
@@ -2353,8 +2339,7 @@ button {
   transition: 200ms linear;
 }
 
-.contact-form-group input:hover,
-.contact-form-group input:focus {
+.contact-form-group input:hover, .contact-form-group input:focus {
   background-color: #7fd9c7;
   border: 1px solid #7fd9c7;
 }

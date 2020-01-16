@@ -30,6 +30,11 @@
     font-weight: 300;
     color: $white-color;
     transition: color 200ms linear;
+
+    &:hover,
+    &:focus {
+        color: $white-color;
+    }
 }
 
 .topline-contacts-link::after,
@@ -40,13 +45,6 @@
     margin: 0.2rem auto 0;
     border-bottom: 0.1rem solid $white-color;
     transition: width 200ms;
-}
-
-.topline-contacts-link:hover,
-.topline-contacts-link:focus,
-.topline-menu-link:hover,
-.topline-menu-link:focus {
-    color: $white-color;
 }
 
 .topline-contacts-link:hover::after,
@@ -81,11 +79,11 @@
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     transition: transform 200ms linear;
-}
 
-.logo-header:hover,
-.logo-header:focus {
-    transform: scale(1.15);
+    &:hover,
+    &:focus {
+        transform: scale(1.15);
+    }
 }
 
 .header-bottomline-list {
@@ -103,12 +101,12 @@
     color: $black-color;
     font-weight: bold;
     transition: color 200ms linear;
-}
 
-.header-bottom-link:hover,
-.header-bottom-link:focus,
-.header-bottom-link:active {
-    color: $hover-color;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $hover-color;
+    }
 }
 
 .header-cart-list {
@@ -124,12 +122,12 @@
     text-transform: uppercase;
     font-size: 1.8rem;
     color: $black-color;
-}
 
-.header-cart-link:hover,
-.header-cart-link:focus {
-    color: $hover-color;
-    transition: color 200ms linear;
+    &:hover,
+    &:focus {
+        color: $hover-color;
+        transition: color 200ms linear;
+    }
 }
 
 .cart-basket {
