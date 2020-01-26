@@ -1,15 +1,27 @@
 // @mixin underline ($line, $lineBetween) {
-    //     @extend %underline;
-    //     border-top: 2px solid $lineBetween;
-    //     border-bottom: 2px solid $lineBetween;
-    //     background-color: $line;
-    //     box-shadow: 0 2px 0 $line, 0 -2px 0 $line;
+//         @extend %underline;
+//         border-top: 2px solid $lineBetween;
+//         border-bottom: 2px solid $lineBetween;
+//         background-color: $line;
+//         box-shadow: 0 2px 0 $line, 0 -2px 0 $line;
 
-    //     &_revers {
-    //         @extend %underline;
-    //         border-top: 2px solid $line;
-    //         border-bottom: 2px solid $line;
-    //         background-color: $lineBetween;
-    //         box-shadow: 0 2px 0 $lineBetween, 0 -2px 0 $lineBetween;
-    //     }
-    // }
+//         &_reverse {
+//             @extend %underline;
+//             border-top: 2px solid $line;
+//             border-bottom: 2px solid $line;
+//             background-color: $lineBetween;
+//             box-shadow: 0 2px 0 $lineBetween, 0 -2px 0 $lineBetween;
+//         }
+//     }
+// @mixin underline ($boxShadow, $borderTop, $borderBottom) {
+//     width: 16.4rem;
+//     height: 1.5rem;
+//     box-sizing: border-box;
+//     background-color: #1abc9c;
+//     box-shadow: 0 2px 0 #1abc9c,
+//         0 -2px 0 #1abc9c;
+//     margin: 0 auto;
+//     margin-bottom: 7.8rem;
+//     border-top: 2px solid #e9f0fd;
+//     border-bottom: 2px solid #e9f0fd;
+// }
